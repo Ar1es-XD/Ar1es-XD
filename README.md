@@ -60,12 +60,13 @@ I'm a full-stack engineer and automation builder focused on crafting premium use
 ## 📈 Stats & Activity
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Ar1es-XD&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&icon_color=58A6FF" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ar1es-XD&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9" width="48%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Ar1es-XD&theme=tokyonight" width="48%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Ar1es-XD&theme=tokyonight" width="48%" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Ar1es-XD&theme=tokyonight&hide_border=true&background=0D1117&title=58A6FF&text=C9D1D9&sideNums=C9D1D9&sideTitle=58A6FF&ring=58A6FF&fire=FF8C00" width="98%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Ar1es-XD&theme=tokyonight" width="48%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Ar1es-XD&theme=tokyonight&hide_border=true&background=0D1117&title=58A6FF&text=C9D1D9&sideNums=C9D1D9&sideTitle=58A6FF&ring=58A6FF&fire=FF8C00&cb=1" width="48%" />
 </p>
 
 ---
