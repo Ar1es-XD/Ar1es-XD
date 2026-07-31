@@ -1,17 +1,24 @@
 # Hi there, I'm Chinmaya (Ar1es-XD) 👋
+
 <p align="center">
   <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Outfit&size=24&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=450&lines=Full-Stack+Developer;AI+Automation+Builder;Open+Source+Contributor" alt="Typing SVG" /></a>
+</p>
+
+<p align="center">
+  <img src="https://komarev.com/normal-badge/?username=Ar1es-XD&color=58A6FF&style=flat-square&label=Profile+Views" alt="Profile Views" />
+  <img src="https://img.shields.io/github/followers/Ar1es-XD?label=Followers&style=flat-square&color=28a745" alt="Followers" />
 </p>
 
 ---
 
 ## 💫 About Me
+
 I'm a full-stack engineer and automation builder focused on crafting premium user experiences and robust distributed systems. I love pairing clean code with modern design aesthetics and building autonomous agents to solve real-world problems.
 
-* 🚀 Currently building autonomous code generators and Git activity automation systems.
-* 🛠️ Proficient in React, Next.js, Python, JavaScript, and modern DevOps tools.
-* 🎓 Constantly learning new paradigms in distributed consensus and agentic frameworks.
-* 💬 Ask me about UI design, software architectures, or containerized applications.
+- 🚀 **Currently building**: Autonomous code generators and Git activity automation systems.
+- 🛠️ **Proficient in**: React, Next.js, Python, JavaScript, and modern DevOps tools.
+- 🎓 **Research interests**: Distributed consensus paradigms, LLM architectures, and agentic workflows.
+- 💬 **Ask me about**: UI design, software architecture, or containerized applications.
 
 ---
 
@@ -35,7 +42,7 @@ I'm a full-stack engineer and automation builder focused on crafting premium use
   <img src="https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white" />
 </p>
 
-### 🔧 Databases, Cloud & DevOps
+### 🔧 Databases & DevOps
 <p align="left">
   <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
   <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white" />
@@ -56,7 +63,23 @@ I'm a full-stack engineer and automation builder focused on crafting premium use
 
 ---
 
-## 📈 Stats & Activity
+## 📊 3D Contribution Graph
+
+<p align="center">
+  <img src="profile-3d-contrib/profile-green-animate.svg" alt="3D Contribution Graph" width="100%" />
+</p>
+
+---
+
+## ⚡ Account Metrics
+
+<p align="center">
+  <img src="metrics.svg" alt="GitHub Metrics" width="100%" />
+</p>
+
+---
+
+## 📈 Activity Stats
 
 <p align="center">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Ar1es-XD&theme=tokyonight" width="48%" />
