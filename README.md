@@ -40,7 +40,20 @@ I build deterministic automation systems and interactive full-stack applications
 | **Task Tracker** <br/> `[Active]` | Full-stack project manager featuring calendar synchronization and secure multi-tenant isolation. | `Next.js` `Prisma` `Supabase` | [Codebase](https://github.com/Ar1es-XD/task-tracker) |
 | **Shetty-Flix** <br/> `[Legacy]` | Lightweight, dynamic media directory showcasing smooth hardware-accelerated interface layouts. | `HTML` `CSS` `JS` | [Codebase](https://github.com/The-Ar1es/Shetty-Flix) |
 
+---
 
+### 📊 System Telemetry
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Ar1es-XD&show_icons=true&bg_color=0f172a&title_color=e65f2b&text_color=94a3b8&icon_color=10b981&border_color=334155&hide=typescript" alt="GitHub Stats" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ar1es-XD&layout=compact&bg_color=0f172a&title_color=e65f2b&text_color=94a3b8&icon_color=10b981&border_color=334155&hide=typescript" alt="Top Languages" width="48%" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Ar1es-XD&background=0f172a&title=e65f2b&text=94a3b8&ring=10b981&fire=e65f2b&sideNums=94a3b8&sideTitle=64748b&hide_border=false&border=334155" alt="GitHub Streak Stats" width="97%" />
+</p>
+
+---
 
 <p align="center">
   <i>"A clean commit history is a reflection of focused thoughts."</i> 💻✨
