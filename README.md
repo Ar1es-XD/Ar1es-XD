@@ -63,21 +63,6 @@ I'm a full-stack engineer and automation builder focused on crafting premium use
 
 ---
 
-## 📊 3D Contribution Graph
-
-<p align="center">
-  <img src="profile-3d-contrib/profile-green-animate.svg" alt="3D Contribution Graph" width="100%" />
-</p>
-
----
-
-## ⚡ Account Metrics
-
-<p align="center">
-  <img src="metrics.svg" alt="GitHub Metrics" width="100%" />
-</p>
-
----
 
 ## 📈 Activity Stats
 
