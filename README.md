@@ -45,8 +45,8 @@ I build deterministic automation systems and interactive full-stack applications
 ### 📊 System Telemetry
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Ar1es-XD&show_icons=true&bg_color=0f172a&title_color=e65f2b&text_color=94a3b8&icon_color=10b981&border_color=334155&hide=typescript" alt="GitHub Stats" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ar1es-XD&layout=compact&bg_color=0f172a&title_color=e65f2b&text_color=94a3b8&icon_color=10b981&border_color=334155&hide=typescript" alt="Top Languages" width="48%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Ar1es-XD&theme=tokyonight" alt="Profile Details" width="48%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Ar1es-XD&theme=tokyonight" alt="Repos Per Language" width="48%" />
 </p>
 
 <p align="center">
