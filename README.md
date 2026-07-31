@@ -92,7 +92,7 @@ Infra & Data
 <table>
 <tr>
 <td width="50%">
-  <img src="https://github-readme-stats-eight.vercel.app/api?username=Ar1es-XD&show_icons=true&hide_border=true&bg_color=0F172A&title_color=E65F2B&text_color=CBD5E1&icon_color=10B981&hide=typescript" width="100%" alt="GitHub Stats Card" />
+  <img src="https://github-stats-extended.vercel.app/api?username=Ar1es-XD&show_icons=true&hide_border=true&bg_color=0F172A&title_color=E65F2B&text_color=CBD5E1&icon_color=10B981&hide=typescript" width="100%" alt="GitHub Stats Card" />
 </td>
 <td width="50%">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Ar1es-XD&hide_border=true&background=0F172A&ring=E65F2B&fire=E65F2B&currStreakLabel=10B981" width="100%" alt="GitHub Streak Stats Card" />
