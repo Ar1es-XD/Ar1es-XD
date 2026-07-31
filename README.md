@@ -16,7 +16,7 @@
 
 ### About Me
 
-I'm a full-stack engineer and automation builder focused on crafting premium user experiences and robust distributed systems. Currently, I build autonomous code generators and Git activity automation systems to remove developer friction and optimize repositories. I am actively researching distributed consensus paradigms, LLM agent loop architectures, and state replication logs to design more deterministic systems.
+I'm a full-stack engineer and automation builder focused on crafting premium user experiences and robust distributed systems. Currently, I build autonomous code generators and Git activity automation systems to remove developer friction and optimize repositories. Alongside this, I train **ESM-Mamba (MambaCross)** neural networks and Graph Transformers to model biological sequences and predict HIV neutralization across novel antibody/antigen holdouts.
 
 </td>
 <td width="40%" align="center">
@@ -75,6 +75,18 @@ Infra & Data
   <td>Full-stack task manager with Google OAuth + calendar sync</td>
   <td>Next.js · Prisma · Supabase</td>
   <td><a href="https://github.com/Ar1es-XD/task-tracker">Repo</a></td>
+</tr>
+<tr>
+  <td><strong>ESM-Mamba (Neural)</strong></td>
+  <td>Predicts HIV neutralization using Mamba models on ESM-2 sequence embeddings</td>
+  <td>Python · PyTorch · CUDA</td>
+  <td><a href="https://github.com/Ar1es-XD/Esm-Mamba-Neural">Repo</a></td>
+</tr>
+<tr>
+  <td><strong>ESM-Mamba (Graph)</strong></td>
+  <td>Predicts HIV neutralization using Graph Transformers on Mamba representations</td>
+  <td>Python · PyTorch · PyG</td>
+  <td><a href="https://github.com/Ar1es-XD/Esm-Mamba-Graph_Transformer">Repo</a></td>
 </tr>
 <tr>
   <td><strong>Shetty-Flix</strong></td>
