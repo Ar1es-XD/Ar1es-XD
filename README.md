@@ -9,7 +9,7 @@
 I'm a full-stack engineer and automation builder focused on crafting premium user experiences and robust distributed systems. I love pairing clean code with modern design aesthetics and building autonomous agents to solve real-world problems.
 
 * 🚀 Currently building autonomous code generators and Git activity automation systems.
-* 🛠️ Proficient in React, Next.js, Python, TypeScript, and modern DevOps tools.
+* 🛠️ Proficient in React, Next.js, Python, JavaScript, and modern DevOps tools.
 * 🎓 Constantly learning new paradigms in distributed consensus and agentic frameworks.
 * 💬 Ask me about UI design, software architectures, or containerized applications.
 
@@ -20,7 +20,6 @@ I'm a full-stack engineer and automation builder focused on crafting premium use
 ### 💻 Languages & Runtimes
 <p align="left">
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" />
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" />
@@ -50,7 +49,7 @@ I'm a full-stack engineer and automation builder focused on crafting premium use
 
 | Project | Description | Stack | Link |
 | :--- | :--- | :--- | :--- |
-| **🚀 Algora** | Interactive Algorithm Visualization & Adaptive Learning Platform. | `Next.js` `TS` `Prisma` `Tailwind` | [Repo](https://github.com/Ar1es-XD/Algora) |
+| **🚀 Algora** | Interactive Algorithm Visualization & Adaptive Learning Platform. | `Next.js` `JS` `Prisma` `Tailwind` | [Repo](https://github.com/Ar1es-XD/Algora) |
 | **⚡ EmpowerMe** | Voice-Powered Platform translating complex laws into simple terms. | `React` `Web Speech API` `Tailwind` | [Repo](https://github.com/Ar1es-XD/EmpowerMe) |
 | **📋 Task Tracker** | Full-stack task management with Google OAuth and calendar sync. | `Next.js` `Prisma` `Supabase` | [Repo](https://github.com/Ar1es-XD/task-tracker) |
 | **🎥 Shetty-Flix** | Dynamic movie listing platform featuring smooth UI interactions. | `HTML` `CSS` `JS` | [Repo](https://github.com/The-Ar1es/Shetty-Flix) |
