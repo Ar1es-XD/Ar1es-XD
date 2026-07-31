@@ -1,60 +1,109 @@
-# Chinmaya (Ar1es-XD)
-
 <p align="center">
-  <img src="signature.svg" alt="Systems, Consensus, and Automation Topology" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,100:1E293B&height=180&section=header&text=Chinmaya%20%7C%20Ar1es-XD&fontSize=42&fontColor=E65F2B&animation=fadeIn&fontAlignY=38&desc=Systems%20Builder%20%C2%B7%20Automation%20%C2%B7%20Distributed%20Agents&descAlignY=58&descSize=16&descColor=10B981" width="100%"/>
 </p>
 
 <p align="center">
-  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=3000&pause=1000&color=E65F2B&center=true&vCenter=true&width=450&lines=systemctl+start+autonomous-agents;npm+run+UX-perfection;python+-m+distributed_consensus" alt="Command Line Typing Animation" /></a>
-</p>
-
-
----
-
-### 💫 Core Focus
-
-I build deterministic automation systems and interactive full-stack applications. My work sits at the intersection of **distributed state consistency**, **agentic workflows**, and **high-fidelity user interfaces**. I focus on removing developer friction through code generation and automating routine execution patterns.
-
-*   🤖 **Current Initiatives**: Designing self-correcting autonomous code generator loops and Git contribution pipelines.
-*   💾 **Systems Philosophy**: Clean structures, minimal dependencies, and clear separation of state.
-*   🔬 **Research Areas**: Practical replication logs, LLM agent loop architectures, and consensus algorithms.
-
----
-
-### 🛠️ System Capabilities
-
-<p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,python,js,html,css,express,tailwind,postgres,supabase,docker,githubactions" alt="Tech Stack Icons" />
-  </a>
+  <img src="https://komarev.com/ghpvc/?username=Ar1es-XD&color=E65F2B&style=flat-square&label=Profile+Views" alt="Profile Views" />
+  <img src="https://img.shields.io/github/followers/Ar1es-XD?label=Followers&style=flat-square&color=10B981" alt="Followers" />
+  <img src="https://img.shields.io/badge/Focus-Distributed%20Systems-06B6D4?style=flat-square" alt="Focus Badge" />
 </p>
 
 ---
 
-### 🏆 Systems Built
+<table>
+<tr>
+<td width="60%" valign="top">
 
-| System & Status | Technical Abstract | Stack | Interface |
-| :--- | :--- | :--- | :--- |
-| **Algora** <br/> `[Active]` | Interactive algorithm visualization engine and adaptive learning sandbox designed to break down DSA step-by-step. | `Next.js` `Prisma` `Tailwind` | [Codebase](https://github.com/Ar1es-XD/Algora) |
-| **EmpowerMe** <br/> `[Active]` | Voice-driven legal translator converting dense constitutional and civil laws into clean, readable explanations. | `React` `Web Speech API` `Tailwind` | [Codebase](https://github.com/Ar1es-XD/EmpowerMe) |
-| **Task Tracker** <br/> `[Active]` | Full-stack project manager featuring calendar synchronization and secure multi-tenant isolation. | `Next.js` `Prisma` `Supabase` | [Codebase](https://github.com/Ar1es-XD/task-tracker) |
-| **Shetty-Flix** <br/> `[Legacy]` | Lightweight, dynamic media directory showcasing smooth hardware-accelerated interface layouts. | `HTML` `CSS` `JS` | [Codebase](https://github.com/The-Ar1es/Shetty-Flix) |
+### About Me
 
----
+I'm a full-stack engineer and automation builder focused on crafting premium user experiences and robust distributed systems. Currently, I build autonomous code generators and Git activity automation systems to remove developer friction and optimize repositories. I am actively researching distributed consensus paradigms, LLM agent loop architectures, and state replication logs to design more deterministic systems.
 
-### 📊 System Telemetry
-
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Ar1es-XD&theme=tokyonight" alt="Profile Details" width="48%" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Ar1es-XD&theme=tokyonight" alt="Repos Per Language" width="48%" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Ar1es-XD&background=0f172a&title=e65f2b&text=94a3b8&ring=10b981&fire=e65f2b&sideNums=94a3b8&sideTitle=64748b&hide_border=false&border=334155" alt="GitHub Streak Stats" width="97%" />
-</p>
+</td>
+<td width="40%" align="center">
+  <img src="./assets/signature.svg" width="260" alt="Consensus Node Topology Diagram" />
+</td>
+</tr>
+</table>
 
 ---
 
+### Tech Stack
+
+Languages
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=js,python,html,css&theme=dark" alt="Languages" />
+</p>
+
+Frameworks & Tools
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,express,tailwind,prisma&theme=dark" alt="Frameworks & Tools" />
+</p>
+
+Infra & Data
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=postgres,supabase,docker,githubactions&theme=dark" alt="Infra & Data" />
+</p>
+
+---
+
+### Featured Projects
+
+<table>
+<thead>
+<tr>
+  <th align="left">Project</th>
+  <th align="left">What it does</th>
+  <th align="left">Stack</th>
+  <th align="left">Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td><strong>Algora</strong></td>
+  <td>Interactive algorithm visualization &amp; adaptive learning platform</td>
+  <td>Next.js · Prisma · Tailwind</td>
+  <td><a href="https://github.com/Ar1es-XD/Algora">Repo</a></td>
+</tr>
+<tr>
+  <td><strong>EmpowerMe</strong></td>
+  <td>Voice-powered platform that translates legal text into plain language</td>
+  <td>React · Web Speech API · Tailwind</td>
+  <td><a href="https://github.com/Ar1es-XD/EmpowerMe">Repo</a></td>
+</tr>
+<tr>
+  <td><strong>Task Tracker</strong></td>
+  <td>Full-stack task manager with Google OAuth + calendar sync</td>
+  <td>Next.js · Prisma · Supabase</td>
+  <td><a href="https://github.com/Ar1es-XD/task-tracker">Repo</a></td>
+</tr>
+<tr>
+  <td><strong>Shetty-Flix</strong></td>
+  <td>Movie listing platform with smooth UI interactions</td>
+  <td>HTML · CSS · JS</td>
+  <td><a href="https://github.com/The-Ar1es/Shetty-Flix">Repo</a></td>
+</tr>
+</tbody>
+</table>
+
+---
+
+### System Telemetry
+
+<table>
+<tr>
+<td width="50%">
+  <img src="https://github-readme-stats.vercel.app/api?username=Ar1es-XD&show_icons=true&hide_border=true&bg_color=0F172A&title_color=E65F2B&text_color=CBD5E1&icon_color=10B981" width="100%" alt="GitHub Stats Card" />
+</td>
+<td width="50%">
+  <img src="https://streak-stats.demolab.com/?user=Ar1es-XD&hide_border=true&background=0F172A&ring=E65F2B&fire=E65F2B&currStreakLabel=10B981" width="100%" alt="GitHub Streak Stats Card" />
+</td>
+</tr>
+</table>
+
+---
+
+<p align="center"><i>Clean state, deterministic commits.</i></p>
+
 <p align="center">
-  <i>"A clean commit history is a reflection of focused thoughts."</i> 💻✨
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1E293B,100:0F172A&height=120&section=footer" width="100%" alt="Footer Wave Banner" />
 </p>
