@@ -107,7 +107,7 @@ Infra & Data
   <img src="https://github-stats-extended.vercel.app/api?username=Ar1es-XD&show_icons=true&hide_border=true&bg_color=0D1117&title_color=E65F2B&text_color=FFFFFF&icon_color=10B981&hide=typescript" width="100%" alt="GitHub Stats Card" />
 </td>
 <td width="50%">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Ar1es-XD&hide_border=true&background=0D1117&ring=E65F2B&fire=E65F2B&currStreakLabel=10B981&text=FFFFFF&sideNums=FFFFFF&currStreakNum=E65F2B&sideTitle=10B981&dates=CBD5E1" width="100%" alt="GitHub Streak Stats Card" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Ar1es-XD&hide_border=true&background=0D1117&ring=E65F2B&fire=E65F2B&currStreakLabel=10B981&currStreakNum=E65F2B&sideLabels=10B981&sideNums=FFFFFF&dates=CBD5E1" width="100%" alt="GitHub Streak Stats Card" />
 </td>
 </tr>
 </table>
