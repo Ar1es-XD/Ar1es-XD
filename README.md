@@ -8,10 +8,6 @@
   <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=3000&pause=1000&color=E65F2B&center=true&vCenter=true&width=450&lines=systemctl+start+autonomous-agents;npm+run+UX-perfection;python+-m+distributed_consensus" alt="Command Line Typing Animation" /></a>
 </p>
 
-<p align="center">
-  <img src="https://komarev.com/normal-badge/?username=Ar1es-XD&color=E65F2B&style=flat-square&label=Telemetry+Views" alt="Profile Views" />
-  <img src="https://img.shields.io/github/followers/Ar1es-XD?label=Subscribers&style=flat-square&color=10B981" alt="Followers" />
-</p>
 
 ---
 
@@ -44,36 +40,7 @@ I build deterministic automation systems and interactive full-stack applications
 | **Task Tracker** <br/> `[Active]` | Full-stack project manager featuring calendar synchronization and secure multi-tenant isolation. | `Next.js` `Prisma` `Supabase` | [Codebase](https://github.com/Ar1es-XD/task-tracker) |
 | **Shetty-Flix** <br/> `[Legacy]` | Lightweight, dynamic media directory showcasing smooth hardware-accelerated interface layouts. | `HTML` `CSS` `JS` | [Codebase](https://github.com/The-Ar1es/Shetty-Flix) |
 
----
 
-### 📊 System Telemetry
-
-<p align="center">
-  <!-- GitHub Stats Card -->
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=Ar1es-XD&show_icons=true&bg_color=0f172a&title_color=e65f2b&text_color=94a3b8&icon_color=10b981&border_color=334155&hide=typescript" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=Ar1es-XD&show_icons=true&bg_color=ffffff&title_color=e65f2b&text_color=475569&icon_color=10b981&border_color=e2e8f0&hide=typescript" />
-    <img src="https://github-readme-stats.vercel.app/api?username=Ar1es-XD&show_icons=true&bg_color=ffffff&title_color=e65f2b&text_color=475569&icon_color=10b981&border_color=e2e8f0&hide=typescript" alt="GitHub Stats" width="48%" />
-  </picture>
-  
-  <!-- GitHub Top Languages Card -->
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Ar1es-XD&layout=compact&bg_color=0f172a&title_color=e65f2b&text_color=94a3b8&icon_color=10b981&border_color=334155&hide=typescript" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Ar1es-XD&layout=compact&bg_color=ffffff&title_color=e65f2b&text_color=475569&icon_color=10b981&border_color=e2e8f0&hide=typescript" />
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ar1es-XD&layout=compact&bg_color=ffffff&title_color=e65f2b&text_color=475569&icon_color=10b981&border_color=e2e8f0&hide=typescript" alt="Top Languages" width="48%" />
-  </picture>
-</p>
-
-<p align="center">
-  <!-- GitHub Streak Card -->
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=Ar1es-XD&background=0f172a&title=e65f2b&text=94a3b8&ring=10b981&fire=e65f2b&sideNums=94a3b8&sideTitle=64748b&hide_border=false&border=334155" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=Ar1es-XD&background=ffffff&title=e65f2b&text=475569&ring=10b981&fire=e65f2b&sideNums=475569&sideTitle=64748b&hide_border=false&border=e2e8f0" />
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=Ar1es-XD&background=ffffff&title=e65f2b&text=475569&ring=10b981&fire=e65f2b&sideNums=475569&sideTitle=64748b&hide_border=false&border=e2e8f0" alt="GitHub Streak Stats" width="97%" />
-  </picture>
-</p>
-
----
 
 <p align="center">
   <i>"A clean commit history is a reflection of focused thoughts."</i> 💻✨
