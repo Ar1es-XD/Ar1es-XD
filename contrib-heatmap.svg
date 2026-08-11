@@ -427,6 +427,6 @@
 
   <!-- Stats Footer -->
   <line x1="20" y1="165" x2="840" y2="165" stroke="#1f2937" stroke-width="1"/>
-  <text x="30" y="180" class="stat-text">171 contributions in the last year</text>
+  <text x="30" y="180" class="stat-text">170 contributions in the last year</text>
   <text x="830" y="180" class="stat-text" text-anchor="end">Streak: 9 days (Max: 9 days) | Best: 30 (July 28, 2026)</text>
 </svg>
