@@ -61,6 +61,19 @@ def main():
         line_str = "".join(line_chars).replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;')
         lines.append(line_str)
 
+    # Strip leading/trailing rows that are pure background noise (space, dot, colon)
+    # These render as solid green lines at small font sizes
+    def is_noise_row(row_str):
+        return all(ch in ' .:' for ch in row_str)
+
+    while lines and is_noise_row(lines[-1]):
+        lines.pop()
+    while lines and is_noise_row(lines[0]):
+        lines.pop(0)
+
+    # Update rows count after trimming
+    rows = len(lines)
+
     # SVG layout calculations
     view_w = 400
     view_h = 440
