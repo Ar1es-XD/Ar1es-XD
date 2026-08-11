@@ -215,46 +215,46 @@
     </clipPath>
   </defs>
 
-  <text x="21.00" y="33.00" class="ascii-text" clip-path="url(#clip-row-0)" xml:space="preserve">                   :----:---------------:                   </text>
-  <text x="21.00" y="42.50" class="ascii-text" clip-path="url(#clip-row-1)" xml:space="preserve">                .--------------------------.                </text>
-  <text x="21.00" y="52.00" class="ascii-text" clip-path="url(#clip-row-2)" xml:space="preserve">              .-----------------------------:.              </text>
-  <text x="21.00" y="61.50" class="ascii-text" clip-path="url(#clip-row-3)" xml:space="preserve">             :--------------------------------:             </text>
-  <text x="21.00" y="71.00" class="ascii-text" clip-path="url(#clip-row-4)" xml:space="preserve">           .-----------------------:------------.           </text>
-  <text x="21.00" y="80.50" class="ascii-text" clip-path="url(#clip-row-5)" xml:space="preserve">          :-----:-------------:--::--------------:          </text>
-  <text x="21.00" y="90.00" class="ascii-text" clip-path="url(#clip-row-6)" xml:space="preserve">         :---------=++=---=====--==--:------------:         </text>
-  <text x="21.00" y="99.50" class="ascii-text" clip-path="url(#clip-row-7)" xml:space="preserve">        :--------+**####**#########**+-------------:        </text>
-  <text x="21.00" y="109.00" class="ascii-text" clip-path="url(#clip-row-8)" xml:space="preserve">       .--------+#####%%%####%%%%%%##***+-----------.       </text>
-  <text x="21.00" y="118.50" class="ascii-text" clip-path="url(#clip-row-9)" xml:space="preserve">       --------+*###%%#%%#####%%%####**++++=---------       </text>
-  <text x="21.00" y="128.00" class="ascii-text" clip-path="url(#clip-row-10)" xml:space="preserve">      :--------*#####%%#####*#########**++*++--------:      </text>
-  <text x="21.00" y="137.50" class="ascii-text" clip-path="url(#clip-row-11)" xml:space="preserve">     .--------+######*#*#*###***####*****++*+=--------.     </text>
-  <text x="21.00" y="147.00" class="ascii-text" clip-path="url(#clip-row-12)" xml:space="preserve">     :------=*###*#****++*+***######*****+++++=--------     </text>
-  <text x="21.00" y="156.50" class="ascii-text" clip-path="url(#clip-row-13)" xml:space="preserve">     --=====*##%###*+*+****+++*##*###*****+++++--------     </text>
-  <text x="21.00" y="166.00" class="ascii-text" clip-path="url(#clip-row-14)" xml:space="preserve">    :-=====+**###**#*++********#**#####*#**++++--------:    </text>
-  <text x="21.00" y="175.50" class="ascii-text" clip-path="url(#clip-row-15)" xml:space="preserve">    --====++###%#****==+++*++++*#%%##%%###***++---------    </text>
-  <text x="21.00" y="185.00" class="ascii-text" clip-path="url(#clip-row-16)" xml:space="preserve">    ======+*###%****+=========+**###%%%#%###**+=--------    </text>
-  <text x="21.00" y="194.50" class="ascii-text" clip-path="url(#clip-row-17)" xml:space="preserve">    ====++*#*#%%#**#+++++=++=+*####%%%#%%%##**+++=------    </text>
-  <text x="21.00" y="204.00" class="ascii-text" clip-path="url(#clip-row-18)" xml:space="preserve">    =+++++*###%%#**##*+++++++*####%%####%###**+++++=----    </text>
-  <text x="21.00" y="213.50" class="ascii-text" clip-path="url(#clip-row-19)" xml:space="preserve">   .=+++++*####%%*####**++++**####%#####%####****++=----    </text>
-  <text x="21.00" y="223.00" class="ascii-text" clip-path="url(#clip-row-20)" xml:space="preserve">    +++++***#####%#***+++++++**###%##%%######***#*+====-    </text>
-  <text x="21.00" y="232.50" class="ascii-text" clip-path="url(#clip-row-21)" xml:space="preserve">    ++++++**#####%%#**+++++*****###%#####*##%####*+=====    </text>
-  <text x="21.00" y="242.00" class="ascii-text" clip-path="url(#clip-row-22)" xml:space="preserve">    ++******#####%%%%###*+++==+*###%#######%%###*#*+====    </text>
-  <text x="21.00" y="251.50" class="ascii-text" clip-path="url(#clip-row-23)" xml:space="preserve">    =****####%##%%###**+======**###%####%%%%####****++=-    </text>
-  <text x="21.00" y="261.00" class="ascii-text" clip-path="url(#clip-row-24)" xml:space="preserve">    :***########%##*++=======+*######%%#%%##%####******:    </text>
-  <text x="21.00" y="270.50" class="ascii-text" clip-path="url(#clip-row-25)" xml:space="preserve">     ***###**##%#**++=======++#########%#########*##***     </text>
-  <text x="21.00" y="280.00" class="ascii-text" clip-path="url(#clip-row-26)" xml:space="preserve">     -*#######%#**+========+++*####%########*########*-     </text>
-  <text x="21.00" y="289.50" class="ascii-text" clip-path="url(#clip-row-27)" xml:space="preserve">      ***###%##***+========+++*#############**#%#####*      </text>
-  <text x="21.00" y="299.00" class="ascii-text" clip-path="url(#clip-row-28)" xml:space="preserve">      :*####%#***+======-==++*##############**#######-      </text>
-  <text x="21.00" y="308.50" class="ascii-text" clip-path="url(#clip-row-29)" xml:space="preserve">       +*##%#***++==========+*###########*****####**+       </text>
-  <text x="21.00" y="318.00" class="ascii-text" clip-path="url(#clip-row-30)" xml:space="preserve">        *###***+++=========++****#####*##****#####*+        </text>
-  <text x="21.00" y="327.50" class="ascii-text" clip-path="url(#clip-row-31)" xml:space="preserve">         *#****++==========+**#*########****######*         </text>
-  <text x="21.00" y="337.00" class="ascii-text" clip-path="url(#clip-row-32)" xml:space="preserve">          +**++*==========++***########****######*          </text>
-  <text x="21.00" y="346.50" class="ascii-text" clip-path="url(#clip-row-33)" xml:space="preserve">           =*+*+=======+=++***************###*#%*           </text>
-  <text x="21.00" y="356.00" class="ascii-text" clip-path="url(#clip-row-34)" xml:space="preserve">            :*+++++=====++*******++******######=            </text>
-  <text x="21.00" y="365.50" class="ascii-text" clip-path="url(#clip-row-35)" xml:space="preserve">              +#####***++*****+++++***+*#####+.             </text>
-  <text x="21.00" y="375.00" class="ascii-text" clip-path="url(#clip-row-36)" xml:space="preserve">               .*##########****+++**++*#%##+.               </text>
-  <text x="21.00" y="384.50" class="ascii-text" clip-path="url(#clip-row-37)" xml:space="preserve">                 .=#######%%#####*****#%#+.                 </text>
-  <text x="21.00" y="394.00" class="ascii-text" clip-path="url(#clip-row-38)" xml:space="preserve">                    :=*###########%##*=:                    </text>
-  <text x="21.00" y="403.50" class="ascii-text" clip-path="url(#clip-row-39)" xml:space="preserve">                        .:-=++++==-.                        </text>
+  <text x="21.00" y="33.00" class="ascii-text" clip-path="url(#clip-row-0)" xml:space="preserve">............................................................</text>
+  <text x="21.00" y="42.50" class="ascii-text" clip-path="url(#clip-row-1)" xml:space="preserve">............................................................</text>
+  <text x="21.00" y="52.00" class="ascii-text" clip-path="url(#clip-row-2)" xml:space="preserve">............................................................</text>
+  <text x="21.00" y="61.50" class="ascii-text" clip-path="url(#clip-row-3)" xml:space="preserve">............................................................</text>
+  <text x="21.00" y="71.00" class="ascii-text" clip-path="url(#clip-row-4)" xml:space="preserve">............................................................</text>
+  <text x="21.00" y="80.50" class="ascii-text" clip-path="url(#clip-row-5)" xml:space="preserve">............................................................</text>
+  <text x="21.00" y="90.00" class="ascii-text" clip-path="url(#clip-row-6)" xml:space="preserve">............................................................</text>
+  <text x="21.00" y="99.50" class="ascii-text" clip-path="url(#clip-row-7)" xml:space="preserve">............................................................</text>
+  <text x="21.00" y="109.00" class="ascii-text" clip-path="url(#clip-row-8)" xml:space="preserve">............................:...............................</text>
+  <text x="21.00" y="118.50" class="ascii-text" clip-path="url(#clip-row-9)" xml:space="preserve">............................................................</text>
+  <text x="21.00" y="128.00" class="ascii-text" clip-path="url(#clip-row-10)" xml:space="preserve">............................................................</text>
+  <text x="21.00" y="137.50" class="ascii-text" clip-path="url(#clip-row-11)" xml:space="preserve">......................:::::::...............................</text>
+  <text x="21.00" y="147.00" class="ascii-text" clip-path="url(#clip-row-12)" xml:space="preserve">....................:-..          ::::......................</text>
+  <text x="21.00" y="156.50" class="ascii-text" clip-path="url(#clip-row-13)" xml:space="preserve">....................-::    ....  ..:-:::....................</text>
+  <text x="21.00" y="166.00" class="ascii-text" clip-path="url(#clip-row-14)" xml:space="preserve">.................:::.=============-=----:...................</text>
+  <text x="21.00" y="175.50" class="ascii-text" clip-path="url(#clip-row-15)" xml:space="preserve">...............:::-..=======--=====------:..................</text>
+  <text x="21.00" y="185.00" class="ascii-text" clip-path="url(#clip-row-16)" xml:space="preserve">..............:----- ===--====-=======---:::................</text>
+  <text x="21.00" y="194.50" class="ascii-text" clip-path="url(#clip-row-17)" xml:space="preserve">..........::::-:--:..===:------========.:::::...............</text>
+  <text x="21.00" y="204.00" class="ascii-text" clip-path="url(#clip-row-18)" xml:space="preserve">.........::--:---::  ===------=========.:::::::.............</text>
+  <text x="21.00" y="213.50" class="ascii-text" clip-path="url(#clip-row-19)" xml:space="preserve">.......::---::::--.. ====----==========.:::-::::............</text>
+  <text x="21.00" y="223.00" class="ascii-text" clip-path="url(#clip-row-20)" xml:space="preserve">......::--:--::-::.. ====----========== :-::-::::...........</text>
+  <text x="21.00" y="232.50" class="ascii-text" clip-path="url(#clip-row-21)" xml:space="preserve">......::----::::-:.  =====-----======== ..::::::::..........</text>
+  <text x="21.00" y="242.00" class="ascii-text" clip-path="url(#clip-row-22)" xml:space="preserve">.....::-----:.::..   ===--:::--========  ..:::--::..........</text>
+  <text x="21.00" y="251.50" class="ascii-text" clip-path="url(#clip-row-23)" xml:space="preserve">.....::---::..:....  =----::--=========.....:::-:::.........</text>
+  <text x="21.00" y="261.00" class="ascii-text" clip-path="url(#clip-row-24)" xml:space="preserve">.....::---::::::.    .---::--:. .. ......   .::--::.........</text>
+  <text x="21.00" y="270.50" class="ascii-text" clip-path="url(#clip-row-25)" xml:space="preserve">....:::----:::.-..  .----::--:. .....  .        ..::........</text>
+  <text x="21.00" y="280.00" class="ascii-text" clip-path="url(#clip-row-26)" xml:space="preserve">....::-----:::--:  .::-::::-::..:..... .         .:-........</text>
+  <text x="21.00" y="289.50" class="ascii-text" clip-path="url(#clip-row-27)" xml:space="preserve">....:::---:: ..:.....:.::--::.:........           .-::......</text>
+  <text x="21.00" y="299.00" class="ascii-text" clip-path="url(#clip-row-28)" xml:space="preserve">....:::--:.     ..:.::.:---::........:             .:-:.....</text>
+  <text x="21.00" y="308.50" class="ascii-text" clip-path="url(#clip-row-29)" xml:space="preserve">....:::-:.      .::.:::--::......  ..                .......</text>
+  <text x="21.00" y="318.00" class="ascii-text" clip-path="url(#clip-row-30)" xml:space="preserve">.....:::      ...:.        .........                  ......</text>
+  <text x="21.00" y="327.50" class="ascii-text" clip-path="url(#clip-row-31)" xml:space="preserve">......-:.                         ..                  .:....</text>
+  <text x="21.00" y="337.00" class="ascii-text" clip-path="url(#clip-row-32)" xml:space="preserve">......::...                                          .:.....</text>
+  <text x="21.00" y="346.50" class="ascii-text" clip-path="url(#clip-row-33)" xml:space="preserve">.......::..                                     ....:.......</text>
+  <text x="21.00" y="356.00" class="ascii-text" clip-path="url(#clip-row-34)" xml:space="preserve">.........:::. .                             ................</text>
+  <text x="21.00" y="365.50" class="ascii-text" clip-path="url(#clip-row-35)" xml:space="preserve">............:::::::::::::........  ........:::..............</text>
+  <text x="21.00" y="375.00" class="ascii-text" clip-path="url(#clip-row-36)" xml:space="preserve">...................::::::::::.:...:::.:::::::...............</text>
+  <text x="21.00" y="384.50" class="ascii-text" clip-path="url(#clip-row-37)" xml:space="preserve">...................:::::::::::::::::::::::::::..............</text>
+  <text x="21.00" y="394.00" class="ascii-text" clip-path="url(#clip-row-38)" xml:space="preserve">.....................:...:::::::.............:..............</text>
+  <text x="21.00" y="403.50" class="ascii-text" clip-path="url(#clip-row-39)" xml:space="preserve">.....................:....:::...............................</text>
 
   <rect x="21.00" y="25.00" width="4.80" height="9.50" class="cursor">
     <animate attributeName="x" from="21.00" to="309.00" dur="0.16s" begin="0.000s" fill="freeze" />

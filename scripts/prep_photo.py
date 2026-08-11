@@ -50,31 +50,30 @@ def main():
 
     h, w, _ = img.shape
 
-    # 2. Crop to head & upper torso (12% to 62% Y, 25% to 75% X)
-    crop_y1, crop_y2 = int(h * 0.12), int(h * 0.62)
-    crop_x1, crop_x2 = int(w * 0.25), int(w * 0.75)
+    # 2. Expanded crop so full wig, hair, head and shoulders fit without oval truncation
+    crop_y1, crop_y2 = int(h * 0.02), int(h * 0.72)
+    crop_x1, crop_x2 = int(w * 0.12), int(w * 0.88)
     cropped = img[crop_y1:crop_y2, crop_x1:crop_x2]
 
-    # 3. Grayscale & Normalize
+    # 3. Convert to Grayscale
     gray = cv2.cvtColor(cropped, cv2.COLOR_BGR2GRAY)
-    gray_norm = cv2.normalize(gray, None, 0, 255, cv2.NORM_MINMAX)
+    ch, cw = gray.shape
 
-    # 4. Extract prominent facial feature edges (eyes, eyebrows, nose, mouth, wig)
-    edges = cv2.Canny(gray_norm, 40, 130)
-    edges_dilated = cv2.dilate(edges, np.ones((2, 2), np.uint8), iterations=1)
+    # 4. Bilateral filter to smooth skin noise
+    smoothed = cv2.bilateralFilter(gray, d=7, sigmaColor=50, sigmaSpace=50)
 
-    # Combine gray tones with edges: edges sharpen facial features
-    blended = cv2.addWeighted(gray_norm, 0.75, 255 - edges_dilated, 0.25, 0)
+    # 5. Soften nostril shadow holes in central face area
+    face_y1, face_y2 = int(ch * 0.35), int(ch * 0.60)
+    face_x1, face_x2 = int(cw * 0.35), int(cw * 0.65)
+    face_region = smoothed[face_y1:face_y2, face_x1:face_x2]
+    smoothed[face_y1:face_y2, face_x1:face_x2] = np.where(face_region < 110, 125, face_region)
 
-    # 5. Mask background around face & wig
-    ch, cw = blended.shape
-    mask = np.zeros_like(blended)
-    cv2.ellipse(mask, (cw // 2, int(ch * 0.48)), (int(cw * 0.44), int(ch * 0.47)), 0, 0, 360, 255, -1)
-    final_prepped = np.where((mask == 0) | (blended > 215), 255, blended)
+    # 6. Map dark background pixels (< 50) to pure white (255 / space) without hard oval slicing
+    final_prepped = np.where(smoothed < 50, 255, smoothed)
 
     output_path = "source-prepped.png"
     cv2.imwrite(output_path, final_prepped)
-    print(f"Successfully prepped edge-enhanced facial portrait and saved to {output_path}")
+    print(f"Successfully prepped unclipped facial portrait and saved to {output_path}")
 
 if __name__ == "__main__":
     main()
