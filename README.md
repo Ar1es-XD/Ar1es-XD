@@ -27,14 +27,58 @@
 
 ### <code>ar1es-xd@github ~ $ cat projects.json</code>
 
-| System | Description | Tech Stack | Source |
-| :--- | :--- | :--- | :--- |
-| ⚡ **Algora** | Interactive algorithm visualization & adaptive learning platform | Next.js · Prisma · Tailwind | [Repository](https://github.com/Ar1es-XD/Algora) |
-| 🎙️ **EmpowerMe** | Voice-powered platform translating complex legal text into plain language | React · Web Speech API · Tailwind | [Repository](https://github.com/Ar1es-XD/EmpowerMe) |
-| 📋 **Task Tracker** | Production task manager with Google OAuth & calendar synchronization | Next.js · Prisma · Supabase | [Repository](https://github.com/Ar1es-XD/task-tracker) |
-| 🧬 **ESM-Mamba (Neural)** | Predicting HIV neutralization using Mamba models on ESM-2 sequence embeddings | Python · PyTorch · CUDA | [Repository](https://github.com/Ar1es-XD/Esm-Mamba-Neural) |
-| 🕸️ **ESM-Mamba (Graph)** | Graph Transformers on Mamba representations for antibody/antigen holdout predictions | Python · PyTorch · PyG | [Repository](https://github.com/Ar1es-XD/Esm-Mamba-Graph_Transformer) |
-| 🎬 **Shetty-Flix** | Interactive movie listing platform with smooth UI transitions | HTML5 · CSS3 · JavaScript | [Repository](https://github.com/The-Ar1es/Shetty-Flix) |
+<div align="center">
+<table>
+<tr>
+<td width="50%" valign="top">
+<p align="left">
+  <code><b>⚡ ALGORA</b></code> <a href="https://github.com/Ar1es-XD/Algora"><img src="https://img.shields.io/badge/PRODUCTION-10B981?style=flat-square&logoWidth=0" align="right" alt="Production" /></a><br>
+  <sub>Interactive algorithm visualization & adaptive learning platform.</sub><br><br>
+  <code>Next.js</code> · <code>Prisma</code> · <code>TailwindCSS</code>
+</p>
+</td>
+<td width="50%" valign="top">
+<p align="left">
+  <code><b>🎙️ EMPOWERME</b></code> <a href="https://github.com/Ar1es-XD/EmpowerMe"><img src="https://img.shields.io/badge/PRODUCTION-10B981?style=flat-square&logoWidth=0" align="right" alt="Production" /></a><br>
+  <sub>Voice-powered platform translating complex legal text into plain language.</sub><br><br>
+  <code>React</code> · <code>Web Speech API</code> · <code>TailwindCSS</code>
+</p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<p align="left">
+  <code><b>📋 TASK TRACKER</b></code> <a href="https://github.com/Ar1es-XD/task-tracker"><img src="https://img.shields.io/badge/PRODUCTION-10B981?style=flat-square&logoWidth=0" align="right" alt="Production" /></a><br>
+  <sub>Full-stack task manager with Google OAuth & calendar synchronization.</sub><br><br>
+  <code>Next.js</code> · <code>Prisma</code> · <code>Supabase</code>
+</p>
+</td>
+<td width="50%" valign="top">
+<p align="left">
+  <code><b>🎬 SHETTY-FLIX</b></code> <a href="https://github.com/The-Ar1es/Shetty-Flix"><img src="https://img.shields.io/badge/STABLE-3B82F6?style=flat-square&logoWidth=0" align="right" alt="Stable" /></a><br>
+  <sub>Movie listing platform built with micro-animations & responsive layout.</sub><br><br>
+  <code>HTML5</code> · <code>CSS3</code> · <code>JavaScript</code>
+</p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<p align="left">
+  <code><b>🧬 ESM-MAMBA (NEURAL)</b></code> <a href="https://github.com/Ar1es-XD/Esm-Mamba-Neural"><img src="https://img.shields.io/badge/RESEARCH-E65F2B?style=flat-square&logoWidth=0" align="right" alt="Research" /></a><br>
+  <sub>Predicting HIV neutralization using Mamba models on ESM-2 embeddings.</sub><br><br>
+  <code>Python</code> · <code>PyTorch</code> · <code>CUDA</code>
+</p>
+</td>
+<td width="50%" valign="top">
+<p align="left">
+  <code><b>🕸️ ESM-MAMBA (GRAPH)</b></code> <a href="https://github.com/Ar1es-XD/Esm-Mamba-Graph_Transformer"><img src="https://img.shields.io/badge/RESEARCH-E65F2B?style=flat-square&logoWidth=0" align="right" alt="Research" /></a><br>
+  <sub>Graph Transformers on Mamba representations for antibody prediction.</sub><br><br>
+  <code>Python</code> · <code>PyTorch</code> · <code>PyG</code>
+</p>
+</td>
+</tr>
+</table>
+</div>
 
 ---
 
