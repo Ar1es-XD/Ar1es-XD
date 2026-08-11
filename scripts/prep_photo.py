@@ -10,9 +10,9 @@ ssl._create_default_https_context = ssl._create_unverified_context
 
 def download_newton_image(dest_path):
     urls = [
-        "https://upload.wikimedia.org/wikipedia/commons/d/d1/Sir_Isaac_Newton._Line_engraving_by_J._McGahey._Wellcome_V0004246.jpg"
+        "https://upload.wikimedia.org/wikipedia/commons/3/39/GodfreyKneller-IsaacNewton-1689.jpg"
     ]
-    print("Attempting to download Newton's engraving...")
+    print("Attempting to download Newton's portrait...")
     headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AntigravityAgent/1.0'}
     for url in urls:
         try:
@@ -43,51 +43,36 @@ def main():
         sys.exit(1)
 
     # 1. Load image
-    img = cv2.imread(input_path, cv2.IMREAD_UNCHANGED)
+    img = cv2.imread(input_path, cv2.IMREAD_COLOR)
     if img is None:
         print(f"Error: Could not read image {input_path}")
         sys.exit(1)
 
-    # 2. Background removal using rembg (with fallback)
-    bg_removed = False
-    try:
-        print("Attempting background removal with rembg...")
-        from rembg import remove
-        img_rgb = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
-        out_rgb = remove(img_rgb)
-        img = cv2.cvtColor(out_rgb, cv2.COLOR_RGBA2BGRA)
-        bg_removed = True
-        print("Background removal successful.")
-    except BaseException as e:
-        print(f"Warning: rembg failed or not installed ({e}). Proceeding with high-contrast paper thresholding.")
+    h, w, _ = img.shape
 
-    # 3. Composite onto pure white if alpha channel is present
-    if len(img.shape) == 3 and img.shape[2] == 4:
-        b, g, r, alpha = cv2.split(img)
-        foreground = cv2.merge((b, g, r))
-        background = np.ones_like(foreground, dtype=np.uint8) * 255
-        alpha_factor = alpha.astype(float) / 255.0
-        alpha_factor = cv2.merge((alpha_factor, alpha_factor, alpha_factor))
-        img = (foreground.astype(float) * alpha_factor + background.astype(float) * (1.0 - alpha_factor)).astype(np.uint8)
-    else:
-        pass
+    # 2. Crop tightly to Newton head and upper torso so facial features fill the ASCII grid
+    crop_y1, crop_y2 = int(h * 0.05), int(h * 0.70)
+    crop_x1, crop_x2 = int(w * 0.15), int(w * 0.85)
+    cropped = img[crop_y1:crop_y2, crop_x1:crop_x2]
 
-    # 4. Grayscale
-    if len(img.shape) == 3:
-        gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
-    else:
-        gray = img
+    # 3. Convert to Grayscale
+    gray = cv2.cvtColor(cropped, cv2.COLOR_BGR2GRAY)
 
-    # 5. Paper Thresholding & High Contrast Stretch for Engraving Line Art
-    # Background paper (bright pixels above 175) -> set to 255 (pure white)
-    # Ink lines (dark pixels <= 175) -> scaled across [0, 255]
-    print("Applying paper background thresholding and line contrast stretch...")
-    bg_thresh = 175.0
-    gray_clamped = np.where(gray > bg_thresh, 255, (gray.astype(float) / bg_thresh * 255).astype(np.uint8))
+    # 4. Subject isolation: Elliptical mask centered on portrait
+    mask = np.zeros_like(gray)
+    ch, cw = gray.shape
+    cv2.ellipse(mask, (cw // 2, int(ch * 0.48)), (int(cw * 0.44), int(ch * 0.47)), 0, 0, 360, 255, -1)
+
+    # Outside the subject mask or dark background -> set to pure white (255)
+    gray_masked = np.where((mask == 0) | (gray < 45), 255, gray)
+
+    # 5. Local Contrast Boost (CLAHE) on subject
+    clahe = cv2.createCLAHE(clipLimit=2.5, tileGridSize=(8, 8))
+    gray_prepped = clahe.apply(gray_masked)
 
     output_path = "source-prepped.png"
-    cv2.imwrite(output_path, gray_clamped.astype(np.uint8))
-    print(f"Successfully prepped photo and saved to {output_path}")
+    cv2.imwrite(output_path, gray_prepped)
+    print(f"Successfully prepped facial portrait and saved to {output_path}")
 
 if __name__ == "__main__":
     main()
