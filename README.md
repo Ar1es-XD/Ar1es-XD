@@ -50,12 +50,35 @@
 
 ### <code>ar1es-xd@github ~ $ ./stack --list</code>
 
-```
-[Languages]    Python 3.11+  |  TypeScript  |  JavaScript  |  HTML5/CSS3
-[Frameworks]   React  |  Next.js  |  Node.js  |  Express  |  TailwindCSS  |  Prisma
-[ML & Data]    PyTorch  |  PyTorch Geometric  |  NumPy  |  PostgreSQL  |  Supabase
-[DevOps]       Docker  |  GitHub Actions  |  Git  |  Linux/zsh
-```
+<div align="center">
+<table>
+  <tr>
+    <td bgcolor="#0b0f19" width="860" style="padding: 18px;">
+      
+      <p align="left">
+        <code><b>[SYS_LANGUAGES]</b></code><br>
+        <img src="https://skillicons.dev/icons?i=python,ts,js,html,css,cpp,c&theme=dark" alt="Languages" />
+      </p>
+      
+      <p align="left">
+        <code><b>[SYS_FRAMEWORKS]</b></code><br>
+        <img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,express,tailwind,prisma&theme=dark" alt="Frameworks" />
+      </p>
+
+      <p align="left">
+        <code><b>[SYS_ML_DATA]</b></code><br>
+        <img src="https://skillicons.dev/icons?i=pytorch,postgres,supabase,cuda&theme=dark" alt="Machine Learning & Data" />
+      </p>
+
+      <p align="left">
+        <code><b>[SYS_DEVOPS_INFRA]</b></code><br>
+        <img src="https://skillicons.dev/icons?i=docker,githubactions,git,linux,bash,vscode&theme=dark" alt="DevOps & Infrastructure" />
+      </p>
+
+    </td>
+  </tr>
+</table>
+</div>
 
 ---
 
