@@ -1,15 +1,15 @@
 <div align="center">
 
 <h3><code>ar1es-xd@github ~ $ ./contributions.sh</code></h3>
-<img src="./contrib-heatmap.svg" width="860" />
+<img src="./contrib-heatmap.svg" width="860" alt="Contribution Heatmap" />
 
 <br><br>
 
 <h3><code>ar1es-xd@github ~ $ whoami</code></h3>
 <table>
   <tr>
-    <td valign="top"><img src="./avi-ascii.svg" width="370" /></td>
-    <td valign="top"><img src="./info-card.svg" width="490" /></td>
+    <td valign="top"><img src="./avi-ascii.svg" width="370" alt="ASCII Portrait" /></td>
+    <td valign="top"><img src="./info-card.svg" width="490" alt="Neofetch Info Card" /></td>
   </tr>
 </table>
 
@@ -25,17 +25,41 @@
 
 ---
 
-### 🛠️ Featured Systems
+### <code>ar1es-xd@github ~ $ cat projects.json</code>
 
-| Project | Description | Stack | Source |
+| System | Description | Tech Stack | Source |
 | :--- | :--- | :--- | :--- |
-| **Algora** | Interactive algorithm visualization & adaptive learning platform | Next.js · Prisma · Tailwind | [Repo](https://github.com/Ar1es-XD/Algora) |
-| **EmpowerMe** | Voice-powered platform that translates legal text into plain language | React · Web Speech API · Tailwind | [Repo](https://github.com/Ar1es-XD/EmpowerMe) |
-| **Task Tracker** | Full-stack task manager with Google OAuth + calendar sync | Next.js · Prisma · Supabase | [Repo](https://github.com/Ar1es-XD/task-tracker) |
-| **ESM-Mamba (Neural)** | Predicts HIV neutralization using Mamba models on ESM-2 sequence embeddings | Python · PyTorch · CUDA | [Repo](https://github.com/Ar1es-XD/Esm-Mamba-Neural) |
-| **ESM-Mamba (Graph)** | Predicts HIV neutralization using Graph Transformers on Mamba representations | Python · PyTorch · PyG | [Repo](https://github.com/Ar1es-XD/Esm-Mamba-Graph_Transformer) |
-| **Shetty-Flix** | Movie listing platform with smooth UI interactions | HTML · CSS · JS | [Repo](https://github.com/The-Ar1es/Shetty-Flix) |
+| ⚡ **Algora** | Interactive algorithm visualization & adaptive learning platform | Next.js · Prisma · Tailwind | [Repository](https://github.com/Ar1es-XD/Algora) |
+| 🎙️ **EmpowerMe** | Voice-powered platform translating complex legal text into plain language | React · Web Speech API · Tailwind | [Repository](https://github.com/Ar1es-XD/EmpowerMe) |
+| 📋 **Task Tracker** | Production task manager with Google OAuth & calendar synchronization | Next.js · Prisma · Supabase | [Repository](https://github.com/Ar1es-XD/task-tracker) |
+| 🧬 **ESM-Mamba (Neural)** | Predicting HIV neutralization using Mamba models on ESM-2 sequence embeddings | Python · PyTorch · CUDA | [Repository](https://github.com/Ar1es-XD/Esm-Mamba-Neural) |
+| 🕸️ **ESM-Mamba (Graph)** | Graph Transformers on Mamba representations for antibody/antigen holdout predictions | Python · PyTorch · PyG | [Repository](https://github.com/Ar1es-XD/Esm-Mamba-Graph_Transformer) |
+| 🎬 **Shetty-Flix** | Interactive movie listing platform with smooth UI transitions | HTML5 · CSS3 · JavaScript | [Repository](https://github.com/The-Ar1es/Shetty-Flix) |
 
 ---
 
-<p align="center"><i>Deterministic commits, scheduled executions.</i></p>
+### <code>ar1es-xd@github ~ $ cat focus.log</code>
+
+> **Distributed Systems & Autonomous Agents**  
+> Building deterministic Git activity automation engines, code generator pipelines, and zero-friction developer tooling.
+
+> **Biomedical AI & State-Space Models**  
+> Training **ESM-Mamba (MambaCross)** neural architectures and Graph Transformers to model complex biological sequences and predict broad neutralization against novel viral variants.
+
+---
+
+### <code>ar1es-xd@github ~ $ ./stack --list</code>
+
+```
+[Languages]    Python 3.11+  |  TypeScript  |  JavaScript  |  HTML5/CSS3
+[Frameworks]   React  |  Next.js  |  Node.js  |  Express  |  TailwindCSS  |  Prisma
+[ML & Data]    PyTorch  |  PyTorch Geometric  |  NumPy  |  PostgreSQL  |  Supabase
+[DevOps]       Docker  |  GitHub Actions  |  Git  |  Linux/zsh
+```
+
+---
+
+<div align="center">
+  <p><code>ar1es-xd@github ~ $ exit 0</code></p>
+  <p><i>Clean state, deterministic commits.</i></p>
+</div>

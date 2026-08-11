@@ -63,11 +63,11 @@
   </g>
   <g class="animate-line line-7">
     <text x="25" y="210" class="key">Now:</text>
-    <text x="120" y="210" class="val">Training ESM-Mamba & building AI codebots</text>
+    <text x="120" y="210" class="val">Training ESM-Mamba &amp; building AI codebots</text>
   </g>
   <g class="animate-line line-8">
     <text x="25" y="235" class="key">Prev:</text>
-    <text x="120" y="235" class="val">Full-stack web dev & automation engineer</text>
+    <text x="120" y="235" class="val">Full-stack web dev &amp; automation engineer</text>
   </g>
   <g class="animate-line line-9">
     <text x="25" y="260" class="key">Stack:</text>
@@ -85,8 +85,8 @@
     <text x="25" y="335" class="divider">---------------------</text>
   </g>
   <g class="animate-line line-13">
-    <text x="25" y="360" class="quote">"Truth is ever to be found in simplicity, and not in the"</text>
-    <text x="25" y="378" class="quote">"multiplicity and confusion of things." — Sir Isaac Newton</text>
+    <text x="25" y="360" class="quote">&quot;Truth is ever to be found in simplicity, and not in the&quot;</text>
+    <text x="25" y="378" class="quote">&quot;multiplicity and confusion of things.&quot; — Sir Isaac Newton</text>
   </g>
   <g class="animate-line line-14">
     <rect x="25" y="405" width="22" height="15" fill="#161b22" rx="2"/>

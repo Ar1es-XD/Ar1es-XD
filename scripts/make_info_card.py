@@ -1,5 +1,10 @@
 import os
 
+def html_escape(text):
+    if not isinstance(text, str):
+        return text
+    return text.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;").replace('"', "&quot;").replace("'", "&apos;")
+
 def main():
     is_static = os.getenv("STATIC") == "1"
 
@@ -31,7 +36,6 @@ def main():
     delays_css = []
     if not is_static:
         for idx in range(len(lines)):
-            # Special handling for quote since it might occupy multiple indices or lines
             delays_css.append(f"      .line-{idx} {{ animation-delay: {0.1 + idx * 0.08:.2f}s; }}")
     else:
         delays_css.append("      .animate-line { opacity: 1 !important; animation: none !important; }")
@@ -54,21 +58,21 @@ def main():
         
         elif item_type == 'divider':
             svg_elements.append(f'  <g class="animate-line line-{idx}">')
-            svg_elements.append(f'    <text x="25" y="{y_pos}" class="divider">{item[1]}</text>')
+            svg_elements.append(f'    <text x="25" y="{y_pos}" class="divider">{html_escape(item[1])}</text>')
             svg_elements.append(f'  </g>')
             
         elif item_type == 'kv':
             key, val = item[1]
             svg_elements.append(f'  <g class="animate-line line-{idx}">')
-            svg_elements.append(f'    <text x="25" y="{y_pos}" class="key">{key}:</text>')
-            svg_elements.append(f'    <text x="120" y="{y_pos}" class="val">{val}</text>')
+            svg_elements.append(f'    <text x="25" y="{y_pos}" class="key">{html_escape(key)}:</text>')
+            svg_elements.append(f'    <text x="120" y="{y_pos}" class="val">{html_escape(val)}</text>')
             svg_elements.append(f'  </g>')
 
         elif item_type == 'quote':
             q1, q2 = item[1]
             svg_elements.append(f'  <g class="animate-line line-{idx}">')
-            svg_elements.append(f'    <text x="25" y="{y_pos}" class="quote">{q1}</text>')
-            svg_elements.append(f'    <text x="25" y="{y_pos + 18}" class="quote">{q2}</text>')
+            svg_elements.append(f'    <text x="25" y="{y_pos}" class="quote">{html_escape(q1)}</text>')
+            svg_elements.append(f'    <text x="25" y="{y_pos + 18}" class="quote">{html_escape(q2)}</text>')
             svg_elements.append(f'  </g>')
 
         elif item_type == 'colors':

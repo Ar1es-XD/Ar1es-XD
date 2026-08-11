@@ -10,9 +10,9 @@ ssl._create_default_https_context = ssl._create_unverified_context
 
 def download_newton_image(dest_path):
     urls = [
-        "https://upload.wikimedia.org/wikipedia/commons/3/39/GodfreyKneller-IsaacNewton-1689.jpg"
+        "https://upload.wikimedia.org/wikipedia/commons/d/d1/Sir_Isaac_Newton._Line_engraving_by_J._McGahey._Wellcome_V0004246.jpg"
     ]
-    print("Attempting to download Newton's portrait...")
+    print("Attempting to download Newton's engraving...")
     headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AntigravityAgent/1.0'}
     for url in urls:
         try:
@@ -53,30 +53,23 @@ def main():
     try:
         print("Attempting background removal with rembg...")
         from rembg import remove
-        # Convert BGR to RGB
         img_rgb = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
         out_rgb = remove(img_rgb)
-        # Convert back to BGR/BGRA for OpenCV
         img = cv2.cvtColor(out_rgb, cv2.COLOR_RGBA2BGRA)
         bg_removed = True
         print("Background removal successful.")
     except BaseException as e:
-        print(f"Warning: rembg failed or not installed ({e}). Proceeding with simple fallback.")
+        print(f"Warning: rembg failed or not installed ({e}). Proceeding with high-contrast paper thresholding.")
 
     # 3. Composite onto pure white if alpha channel is present
     if len(img.shape) == 3 and img.shape[2] == 4:
-        # BGRA image
         b, g, r, alpha = cv2.split(img)
         foreground = cv2.merge((b, g, r))
-        # Create a white background
         background = np.ones_like(foreground, dtype=np.uint8) * 255
-        # Normalize alpha channel to 0.0 - 1.0
         alpha_factor = alpha.astype(float) / 255.0
         alpha_factor = cv2.merge((alpha_factor, alpha_factor, alpha_factor))
-        # Blend
         img = (foreground.astype(float) * alpha_factor + background.astype(float) * (1.0 - alpha_factor)).astype(np.uint8)
     else:
-        # BGR image - if background removal was skipped/failed
         pass
 
     # 4. Grayscale
@@ -85,14 +78,15 @@ def main():
     else:
         gray = img
 
-    # 5. Local Contrast Boost (CLAHE)
-    print("Applying CLAHE local contrast boost...")
-    clahe = cv2.createCLAHE(clipLimit=3.0, tileGridSize=(8, 8))
-    gray_clahe = clahe.apply(gray)
+    # 5. Paper Thresholding & High Contrast Stretch for Engraving Line Art
+    # Background paper (bright pixels above 175) -> set to 255 (pure white)
+    # Ink lines (dark pixels <= 175) -> scaled across [0, 255]
+    print("Applying paper background thresholding and line contrast stretch...")
+    bg_thresh = 175.0
+    gray_clamped = np.where(gray > bg_thresh, 255, (gray.astype(float) / bg_thresh * 255).astype(np.uint8))
 
-    # Save output as source-prepped.png
     output_path = "source-prepped.png"
-    cv2.imwrite(output_path, gray_clahe)
+    cv2.imwrite(output_path, gray_clamped.astype(np.uint8))
     print(f"Successfully prepped photo and saved to {output_path}")
 
 if __name__ == "__main__":
