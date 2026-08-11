@@ -95,8 +95,8 @@ def main():
     .quote {{ font-family: 'Fira Code', monospace; font-size: 11.5px; fill: #e65f2b; font-style: italic; }}
     
     @keyframes fadeInSlide {{
-      from {{ opacity: 0; transform: translateY(6px); }}
-      to {{ opacity: 1; transform: translateY(0); }}
+      0% {{ opacity: 0; }}
+      100% {{ opacity: 1; }}
     }}
     .animate-line {{
       opacity: 0;

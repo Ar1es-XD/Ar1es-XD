@@ -7,8 +7,8 @@
     .quote { font-family: 'Fira Code', monospace; font-size: 11.5px; fill: #e65f2b; font-style: italic; }
     
     @keyframes fadeInSlide {
-      from { opacity: 0; transform: translateY(6px); }
-      to { opacity: 1; transform: translateY(0); }
+      0% { opacity: 0; }
+      100% { opacity: 1; }
     }
     .animate-line {
       opacity: 0;
@@ -85,7 +85,17 @@
     <text x="22" y="310" class="divider">--------------------</text>
   </g>
   <g class="animate-line line-13">
-    <text x="22" y="333" class="quote">&quot;Truth is ever to be found in simplicity,</text>
-    <text x="22" y="350" class="quote">and not in confusion.&quot; — Sir Isaac Newton</text>
+    <text x="22" y="333" class="quote">&quot;Truth is ever to be found in simplicity,&quot;</text>
+    <text x="22" y="350" class="quote">&quot;and not in confusion.&quot; — Sir Isaac Newton</text>
+  </g>
+  <g class="animate-line line-14">
+    <rect x="22" y="374" width="22" height="14" fill="#161b22" rx="2"/>
+    <rect x="50" y="374" width="22" height="14" fill="#0e4429" rx="2"/>
+    <rect x="78" y="374" width="22" height="14" fill="#006d32" rx="2"/>
+    <rect x="106" y="374" width="22" height="14" fill="#26a641" rx="2"/>
+    <rect x="134" y="374" width="22" height="14" fill="#39d353" rx="2"/>
+    <rect x="162" y="374" width="22" height="14" fill="#69f0a0" rx="2"/>
+    <rect x="190" y="374" width="22" height="14" fill="#10b981" rx="2"/>
+    <rect x="218" y="374" width="22" height="14" fill="#e65f2b" rx="2"/>
   </g>
 </svg>
