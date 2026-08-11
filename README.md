@@ -55,14 +55,14 @@
 <tr>
 <td width="50%" valign="top">
 <p align="left">
-  <code><b>🧬 ESM-MAMBA (NEURAL)</b></code> <a href="https://esm-mamba.vercel.app"><img src="https://img.shields.io/badge/LIVE_DEMO-10B981?style=flat-square&logoWidth=0" align="right" alt="Live Demo" /></a><br>
+  <code><b>🧬 ESM-MAMBA (NEURAL)</b></code> <a href="https://github.com/Ar1es-XD/Esm-Mamba-Neural"><img src="https://img.shields.io/badge/RESEARCH-E65F2B?style=flat-square&logoWidth=0" align="right" alt="Research" /></a><br>
   <sub>Predicting antibody neutralization using Mamba models on ESM-2 embeddings.</sub><br><br>
-  <code>Python</code> · <code>PyTorch</code> · <code>Vercel</code>
+  <code>Python</code> · <code>PyTorch</code> · <code>VMamba</code>
 </p>
 </td>
 <td width="50%" valign="top">
 <p align="left">
-  <code><b>🕸️ ESM-MAMBA (GRAPH)</b></code> <a href="https://esm-mamba-graph.vercel.app"><img src="https://img.shields.io/badge/LIVE_DEMO-10B981?style=flat-square&logoWidth=0" align="right" alt="Live Demo" /></a><br>
+  <code><b>🕸️ ESM-MAMBA (GRAPH)</b></code> <a href="https://github.com/Ar1es-XD/Esm-Mamba-Graph_Transformer"><img src="https://img.shields.io/badge/RESEARCH-E65F2B?style=flat-square&logoWidth=0" align="right" alt="Research" /></a><br>
   <sub>Graph Transformers on Mamba representations for antibody prediction.</sub><br><br>
   <code>Python</code> · <code>PyTorch</code> · <code>PyG</code>
 </p>
