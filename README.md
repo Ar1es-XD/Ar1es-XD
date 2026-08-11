@@ -1,3 +1,4 @@
+<!-- Profile README | Last verified: 2026-08-11 -->
 <div align="center">
 
 <h3><code>ar1es-xd@github ~ $ ./contributions.sh</code></h3>
