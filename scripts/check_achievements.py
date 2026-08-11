@@ -14,6 +14,7 @@ TRACKABLE = [
     "Quickdraw",
     "YOLO",
     "Pull Shark",
+    "Galaxy Brain",
 ]
 
 
