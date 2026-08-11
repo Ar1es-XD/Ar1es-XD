@@ -49,10 +49,13 @@ def main():
         line_chars = []
         for c in range(cols):
             val = resized[r, c]
-            if val >= 248:
+            if val >= 245:
                 line_chars.append(" ")
             else:
-                idx = int((255 - val) / 255.0 * (len(RAMP) - 1))
+                # Apply gamma power curve (1.3) to push skin midtones towards soft characters
+                normalized = (255.0 - val) / 255.0
+                curved = np.power(normalized, 1.3)
+                idx = int(curved * (len(RAMP) - 1))
                 idx = max(0, min(idx, len(RAMP) - 1))
                 line_chars.append(RAMP[idx])
         # Escape for XML

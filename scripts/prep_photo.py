@@ -50,7 +50,7 @@ def main():
 
     h, w, _ = img.shape
 
-    # 2. Crop tightly to Newton head and upper torso so facial features fill the ASCII grid
+    # 2. Crop to Newton head and upper torso
     crop_y1, crop_y2 = int(h * 0.05), int(h * 0.70)
     crop_x1, crop_x2 = int(w * 0.15), int(w * 0.85)
     cropped = img[crop_y1:crop_y2, crop_x1:crop_x2]
@@ -66,13 +66,22 @@ def main():
     # Outside the subject mask or dark background -> set to pure white (255)
     gray_masked = np.where((mask == 0) | (gray < 45), 255, gray)
 
-    # 5. Local Contrast Boost (CLAHE) on subject
-    clahe = cv2.createCLAHE(clipLimit=2.5, tileGridSize=(8, 8))
-    gray_prepped = clahe.apply(gray_masked)
+    # 5. Bilateral filter to smooth skin tones while preserving sharp structural edges (eyes, jaw, hair)
+    smoothed = cv2.bilateralFilter(gray_masked, d=9, sigmaColor=75, sigmaSpace=75)
+
+    # 6. Soften harsh small nostril spots in central face region
+    face_y1, face_y2 = int(ch * 0.35), int(ch * 0.60)
+    face_x1, face_x2 = int(cw * 0.35), int(cw * 0.65)
+    face_region = smoothed[face_y1:face_y2, face_x1:face_x2]
+    smoothed[face_y1:face_y2, face_x1:face_x2] = np.where(face_region < 100, 110, face_region)
+
+    # 7. Mild CLAHE contrast equalization
+    clahe = cv2.createCLAHE(clipLimit=1.8, tileGridSize=(8, 8))
+    gray_prepped = clahe.apply(smoothed)
 
     output_path = "source-prepped.png"
     cv2.imwrite(output_path, gray_prepped)
-    print(f"Successfully prepped facial portrait and saved to {output_path}")
+    print(f"Successfully prepped smooth facial portrait and saved to {output_path}")
 
 if __name__ == "__main__":
     main()
