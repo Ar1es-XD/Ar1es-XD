@@ -16,11 +16,6 @@
 </div>
 
 <br>
-
-<p align="center">
-  <i>"Truth is ever to be found in simplicity, and not in the multiplicity and confusion of things." — Sir Isaac Newton</i>
-</p>
-
 <br>
 
 ---
