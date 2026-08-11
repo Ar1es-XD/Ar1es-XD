@@ -50,33 +50,31 @@ def main():
 
     h, w, _ = img.shape
 
-    # 2. Crop to Newton head and upper torso
-    crop_y1, crop_y2 = int(h * 0.05), int(h * 0.70)
-    crop_x1, crop_x2 = int(w * 0.15), int(w * 0.85)
+    # 2. Crop to Newton head & upper torso (8% to 65% Y, 20% to 80% X)
+    crop_y1, crop_y2 = int(h * 0.08), int(h * 0.65)
+    crop_x1, crop_x2 = int(w * 0.20), int(w * 0.80)
     cropped = img[crop_y1:crop_y2, crop_x1:crop_x2]
 
     # 3. Convert to Grayscale
     gray = cv2.cvtColor(cropped, cv2.COLOR_BGR2GRAY)
 
     # 4. Subject isolation: Elliptical mask centered on portrait
-    mask = np.zeros_like(gray)
     ch, cw = gray.shape
-    cv2.ellipse(mask, (cw // 2, int(ch * 0.48)), (int(cw * 0.44), int(ch * 0.47)), 0, 0, 360, 255, -1)
+    mask = np.zeros_like(gray)
+    cv2.ellipse(mask, (cw // 2, int(ch * 0.50)), (int(cw * 0.45), int(ch * 0.48)), 0, 0, 360, 255, -1)
+    gray_masked = np.where((mask == 0) | (gray < 40), 255, gray)
 
-    # Outside the subject mask or dark background -> set to pure white (255)
-    gray_masked = np.where((mask == 0) | (gray < 45), 255, gray)
+    # 5. Bilateral filter to smooth skin noise while preserving strong structural edges (eyes, jaw, hair)
+    smoothed = cv2.bilateralFilter(gray_masked, d=7, sigmaColor=50, sigmaSpace=50)
 
-    # 5. Bilateral filter to smooth skin tones while preserving sharp structural edges (eyes, jaw, hair)
-    smoothed = cv2.bilateralFilter(gray_masked, d=9, sigmaColor=75, sigmaSpace=75)
-
-    # 6. Soften harsh small nostril spots in central face region
+    # 6. Soften nostril shadow holes in central face area
     face_y1, face_y2 = int(ch * 0.35), int(ch * 0.60)
     face_x1, face_x2 = int(cw * 0.35), int(cw * 0.65)
     face_region = smoothed[face_y1:face_y2, face_x1:face_x2]
-    smoothed[face_y1:face_y2, face_x1:face_x2] = np.where(face_region < 100, 110, face_region)
+    smoothed[face_y1:face_y2, face_x1:face_x2] = np.where(face_region < 110, 125, face_region)
 
     # 7. Mild CLAHE contrast equalization
-    clahe = cv2.createCLAHE(clipLimit=1.8, tileGridSize=(8, 8))
+    clahe = cv2.createCLAHE(clipLimit=1.6, tileGridSize=(8, 8))
     gray_prepped = clahe.apply(smoothed)
 
     output_path = "source-prepped.png"

@@ -17,15 +17,15 @@ def main():
         print(f"Error: Could not read image {prepped_path}")
         sys.exit(1)
 
-    # Grid configuration to fit 370x490 card
-    cols = 90
-    rows = 53
-    font_size = 7.5
-    char_w = 3.65
-    char_h = 8.2
+    # Grid configuration to fit 370x490 card with 10px font size
+    cols = 65
+    rows = 45
+    font_size = 10.0
+    char_w = 5.2
+    char_h = 10.0
     
     # Target physical aspect ratio of the grid
-    target_aspect = (cols * char_w) / (rows * char_h)  # 328.5 / 434.6 = 0.7558
+    target_aspect = (cols * char_w) / (rows * char_h)  # 338.0 / 450.0 = 0.7511
 
     # Crop prepped image to match target aspect ratio around center
     img_h, img_w = img.shape
@@ -41,22 +41,21 @@ def main():
 
     resized = cv2.resize(img, (cols, rows), interpolation=cv2.INTER_AREA)
 
-    # ASCII character density ramp from sparse (bright) to dense (dark)
-    RAMP = " .`:-=+*cs#%@"
+    # ASCII character density ramp
+    RAMP = " .:-=+*#%@"
 
     lines = []
     for r in range(rows):
         line_chars = []
         for c in range(cols):
             val = resized[r, c]
-            if val >= 245:
+            if val >= 210:
                 line_chars.append(" ")
             else:
-                # Apply gamma power curve (1.3) to push skin midtones towards soft characters
-                normalized = (255.0 - val) / 255.0
-                curved = np.power(normalized, 1.3)
-                idx = int(curved * (len(RAMP) - 1))
-                idx = max(0, min(idx, len(RAMP) - 1))
+                norm = (210.0 - val) / 210.0
+                curved = np.power(norm, 1.1)
+                idx = int(curved * (len(RAMP) - 1)) + 1
+                idx = min(idx, len(RAMP) - 1)
                 line_chars.append(RAMP[idx])
         # Escape for XML
         line_str = "".join(line_chars).replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;')
@@ -66,12 +65,12 @@ def main():
     view_w = 370
     view_h = 490
     
-    row_w = cols * char_w  # 328.5
-    padding_x = (view_w - row_w) / 2.0  # 20.75
-    padding_y = (view_h - (rows * char_h)) / 2.0  # 27.7
+    row_w = cols * char_w  # 338.0
+    padding_x = (view_w - row_w) / 2.0  # 16.0
+    padding_y = (view_h - (rows * char_h)) / 2.0  # 20.0
 
     # Animation config
-    stagger = 0.035  # Stagger delay between lines
+    stagger = 0.038  # Stagger delay between lines
     row_dur = 0.16   # Duration for a single row to wipe
 
     clip_paths = []
