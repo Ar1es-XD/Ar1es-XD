@@ -6,12 +6,7 @@
 <br><br>
 
 <h3><code>ar1es-xd@github ~ $ whoami</code></h3>
-<table>
-  <tr>
-    <td valign="top" align="center"><img src="https://raw.githubusercontent.com/Ar1es-XD/Ar1es-XD/main/avi-ascii.svg" width="330" alt="ASCII Portrait" /></td>
-    <td valign="top" align="center"><img src="https://raw.githubusercontent.com/Ar1es-XD/Ar1es-XD/main/info-card.svg" width="440" alt="Neofetch Info Card" /></td>
-  </tr>
-</table>
+<img src="https://raw.githubusercontent.com/Ar1es-XD/Ar1es-XD/main/info-card.svg" width="520" alt="Neofetch Info Card" />
 
 </div>
 
