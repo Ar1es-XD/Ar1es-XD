@@ -17,15 +17,15 @@ def main():
         print(f"Error: Could not read image {prepped_path}")
         sys.exit(1)
 
-    # Grid configuration to fit 370x490 card with 10px font size
-    cols = 65
-    rows = 45
-    font_size = 10.0
-    char_w = 5.2
-    char_h = 10.0
+    # Grid configuration to fit 330x430 card
+    cols = 60
+    rows = 40
+    font_size = 9.5
+    char_w = 4.8
+    char_h = 9.5
     
     # Target physical aspect ratio of the grid
-    target_aspect = (cols * char_w) / (rows * char_h)  # 338.0 / 450.0 = 0.7511
+    target_aspect = (cols * char_w) / (rows * char_h)  # 288.0 / 380.0 = 0.7579
 
     # Crop prepped image to match target aspect ratio around center
     img_h, img_w = img.shape
@@ -53,8 +53,7 @@ def main():
                 line_chars.append(" ")
             else:
                 norm = (210.0 - val) / 210.0
-                curved = np.power(norm, 1.1)
-                idx = int(curved * (len(RAMP) - 1)) + 1
+                idx = int(norm * (len(RAMP) - 1)) + 1
                 idx = min(idx, len(RAMP) - 1)
                 line_chars.append(RAMP[idx])
         # Escape for XML
@@ -62,12 +61,12 @@ def main():
         lines.append(line_str)
 
     # SVG layout calculations
-    view_w = 370
-    view_h = 490
+    view_w = 330
+    view_h = 430
     
-    row_w = cols * char_w  # 338.0
-    padding_x = (view_w - row_w) / 2.0  # 16.0
-    padding_y = (view_h - (rows * char_h)) / 2.0  # 20.0
+    row_w = cols * char_w  # 288.0
+    padding_x = (view_w - row_w) / 2.0  # 21.0
+    padding_y = (view_h - (rows * char_h)) / 2.0  # 25.0
 
     # Animation config
     stagger = 0.038  # Stagger delay between lines

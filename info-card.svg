@@ -1,101 +1,101 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 490" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 430 430" width="100%" height="100%">
   <style>
-    .title { font-family: 'Fira Code', monospace; font-size: 15px; font-weight: bold; fill: #10b981; }
-    .key { font-family: 'Fira Code', monospace; font-size: 13px; font-weight: bold; fill: #10b981; }
-    .val { font-family: 'Fira Code', monospace; font-size: 13px; fill: #cbd5e1; }
-    .divider { font-family: 'Fira Code', monospace; font-size: 13px; fill: #30363d; }
-    .quote { font-family: 'Fira Code', monospace; font-size: 12px; fill: #e65f2b; font-style: italic; }
+    .title { font-family: 'Fira Code', monospace; font-size: 14px; font-weight: bold; fill: #10b981; }
+    .key { font-family: 'Fira Code', monospace; font-size: 12px; font-weight: bold; fill: #10b981; }
+    .val { font-family: 'Fira Code', monospace; font-size: 12px; fill: #cbd5e1; }
+    .divider { font-family: 'Fira Code', monospace; font-size: 12px; fill: #30363d; }
+    .quote { font-family: 'Fira Code', monospace; font-size: 11px; fill: #e65f2b; font-style: italic; }
     
     @keyframes fadeInSlide {
-      from { opacity: 0; transform: translateY(8px); }
+      from { opacity: 0; transform: translateY(6px); }
       to { opacity: 1; transform: translateY(0); }
     }
     .animate-line {
       opacity: 0;
-      animation: fadeInSlide 0.4s ease-out forwards;
+      animation: fadeInSlide 0.35s ease-out forwards;
     }
-      .line-0 { animation-delay: 0.10s; }
-      .line-1 { animation-delay: 0.18s; }
-      .line-2 { animation-delay: 0.26s; }
-      .line-3 { animation-delay: 0.34s; }
-      .line-4 { animation-delay: 0.42s; }
-      .line-5 { animation-delay: 0.50s; }
-      .line-6 { animation-delay: 0.58s; }
-      .line-7 { animation-delay: 0.66s; }
-      .line-8 { animation-delay: 0.74s; }
-      .line-9 { animation-delay: 0.82s; }
-      .line-10 { animation-delay: 0.90s; }
-      .line-11 { animation-delay: 0.98s; }
-      .line-12 { animation-delay: 1.06s; }
-      .line-13 { animation-delay: 1.14s; }
-      .line-14 { animation-delay: 1.22s; }
+      .line-0 { animation-delay: 0.08s; }
+      .line-1 { animation-delay: 0.15s; }
+      .line-2 { animation-delay: 0.22s; }
+      .line-3 { animation-delay: 0.29s; }
+      .line-4 { animation-delay: 0.36s; }
+      .line-5 { animation-delay: 0.43s; }
+      .line-6 { animation-delay: 0.50s; }
+      .line-7 { animation-delay: 0.57s; }
+      .line-8 { animation-delay: 0.64s; }
+      .line-9 { animation-delay: 0.71s; }
+      .line-10 { animation-delay: 0.78s; }
+      .line-11 { animation-delay: 0.85s; }
+      .line-12 { animation-delay: 0.92s; }
+      .line-13 { animation-delay: 0.99s; }
+      .line-14 { animation-delay: 1.06s; }
   </style>
 
   <rect width="100%" height="100%" fill="#0b0f19" rx="8" stroke="#1f2937" stroke-width="1.5"/>
 
   <g class="animate-line line-0">
-    <text x="25" y="35" class="title">ar1es-xd</text>
-    <text x="97" y="35" class="val">@</text>
-    <text x="109" y="35" class="title">github</text>
+    <text x="20" y="32" class="title">ar1es-xd</text>
+    <text x="92" y="32" class="val">@</text>
+    <text x="104" y="32" class="title">github</text>
   </g>
   <g class="animate-line line-1">
-    <text x="25" y="60" class="divider">---------------------</text>
+    <text x="20" y="54" class="divider">--------------------</text>
   </g>
   <g class="animate-line line-2">
-    <text x="25" y="85" class="key">OS:</text>
-    <text x="120" y="85" class="val">macOS Sequoia (Darwin 24.0.0)</text>
+    <text x="20" y="76" class="key">OS:</text>
+    <text x="105" y="76" class="val">macOS Sequoia 15.0</text>
   </g>
   <g class="animate-line line-3">
-    <text x="25" y="110" class="key">Host:</text>
-    <text x="120" y="110" class="val">GitHub Profile</text>
+    <text x="20" y="98" class="key">Host:</text>
+    <text x="105" y="98" class="val">GitHub Profile</text>
   </g>
   <g class="animate-line line-4">
-    <text x="25" y="135" class="key">Kernel:</text>
-    <text x="120" y="135" class="val">Antigravity AI Engine v3.5 (Flash)</text>
+    <text x="20" y="120" class="key">Kernel:</text>
+    <text x="105" y="120" class="val">Darwin 24.0.0 (Apple Silicon)</text>
   </g>
   <g class="animate-line line-5">
-    <text x="25" y="160" class="key">Shell:</text>
-    <text x="120" y="160" class="val">zsh 5.9</text>
+    <text x="20" y="142" class="key">Shell:</text>
+    <text x="105" y="142" class="val">zsh 5.9</text>
   </g>
   <g class="animate-line line-6">
-    <text x="25" y="185" class="key">Focus:</text>
-    <text x="120" y="185" class="val">Distributed Systems / ML Agents</text>
+    <text x="20" y="164" class="key">Focus:</text>
+    <text x="105" y="164" class="val">Distributed Systems / AI Agents</text>
   </g>
   <g class="animate-line line-7">
-    <text x="25" y="210" class="key">Now:</text>
-    <text x="120" y="210" class="val">Training ESM-Mamba &amp; building AI codebots</text>
+    <text x="20" y="186" class="key">Now:</text>
+    <text x="105" y="186" class="val">Training ESM-Mamba &amp; AI codebots</text>
   </g>
   <g class="animate-line line-8">
-    <text x="25" y="235" class="key">Prev:</text>
-    <text x="120" y="235" class="val">Full-stack web dev &amp; automation engineer</text>
+    <text x="20" y="208" class="key">Prev:</text>
+    <text x="105" y="208" class="val">Full-stack &amp; automation dev</text>
   </g>
   <g class="animate-line line-9">
-    <text x="25" y="260" class="key">Stack:</text>
-    <text x="120" y="260" class="val">Python, JS/TS, Next.js, Postgres, PyTorch, Docker</text>
+    <text x="20" y="230" class="key">Stack:</text>
+    <text x="105" y="230" class="val">Python, JS/TS, Next.js, PyTorch</text>
   </g>
   <g class="animate-line line-10">
-    <text x="25" y="285" class="key">Projects:</text>
-    <text x="120" y="285" class="val">Algora, EmpowerMe, Task Tracker, ESM-Mamba</text>
+    <text x="20" y="252" class="key">Projects:</text>
+    <text x="105" y="252" class="val">Algora, EmpowerMe, Task Tracker</text>
   </g>
   <g class="animate-line line-11">
-    <text x="25" y="310" class="key">Status:</text>
-    <text x="120" y="310" class="val">Active (clean state, deterministic commits)</text>
+    <text x="20" y="274" class="key">Status:</text>
+    <text x="105" y="274" class="val">Active (clean state, 0 errors)</text>
   </g>
   <g class="animate-line line-12">
-    <text x="25" y="335" class="divider">---------------------</text>
+    <text x="20" y="296" class="divider">--------------------</text>
   </g>
   <g class="animate-line line-13">
-    <text x="25" y="360" class="quote">&quot;Truth is ever to be found in simplicity, and not in the&quot;</text>
-    <text x="25" y="378" class="quote">&quot;multiplicity and confusion of things.&quot; — Sir Isaac Newton</text>
+    <text x="20" y="318" class="quote">&quot;Truth is ever to be found in simplicity,&quot;</text>
+    <text x="20" y="334" class="quote">&quot;and not in confusion.&quot; — Sir Isaac Newton</text>
   </g>
   <g class="animate-line line-14">
-    <rect x="25" y="405" width="22" height="15" fill="#161b22" rx="2"/>
-    <rect x="53" y="405" width="22" height="15" fill="#0e4429" rx="2"/>
-    <rect x="81" y="405" width="22" height="15" fill="#006d32" rx="2"/>
-    <rect x="109" y="405" width="22" height="15" fill="#26a641" rx="2"/>
-    <rect x="137" y="405" width="22" height="15" fill="#39d353" rx="2"/>
-    <rect x="165" y="405" width="22" height="15" fill="#69f0a0" rx="2"/>
-    <rect x="193" y="405" width="22" height="15" fill="#10b981" rx="2"/>
-    <rect x="221" y="405" width="22" height="15" fill="#e65f2b" rx="2"/>
+    <rect x="20" y="356" width="20" height="13" fill="#161b22" rx="2"/>
+    <rect x="46" y="356" width="20" height="13" fill="#0e4429" rx="2"/>
+    <rect x="72" y="356" width="20" height="13" fill="#006d32" rx="2"/>
+    <rect x="98" y="356" width="20" height="13" fill="#26a641" rx="2"/>
+    <rect x="124" y="356" width="20" height="13" fill="#39d353" rx="2"/>
+    <rect x="150" y="356" width="20" height="13" fill="#69f0a0" rx="2"/>
+    <rect x="176" y="356" width="20" height="13" fill="#10b981" rx="2"/>
+    <rect x="202" y="356" width="20" height="13" fill="#e65f2b" rx="2"/>
   </g>
 </svg>

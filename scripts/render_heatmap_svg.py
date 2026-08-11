@@ -20,28 +20,25 @@ def main():
     longest_streak = data["longest_streak"]
     best_day = data["best_day"]
 
-    # Configs matching exactly 860px width
-    view_w = 860
-    view_h = 200
-    box_size = 12
-    gap = 3
-    padding_left = 35
-    padding_top = 35
+    # Configs matching exactly 760px width
+    view_w = 760
+    view_h = 195
+    box_size = 11
+    gap = 2.5
+    padding_left = 25
+    padding_top = 32
 
     # Palette
     PALETTE = ["#161b22", "#0e4429", "#006d32", "#26a641", "#39d353", "#69f0a0"]
 
-    # Compute grid layout
     if not days:
         print("Error: No days found in contribution data.")
         sys.exit(1)
 
     first_date_str = days[0]["date"]
     first_date = datetime.strptime(first_date_str, "%Y-%m-%d")
-    # Sunday=0, Monday=1, ..., Saturday=6
     first_wday = (first_date.weekday() + 1) % 7
 
-    # Group days into columns
     rect_elements = []
     seen_months = set()
     month_labels = []
@@ -51,70 +48,61 @@ def main():
         col_idx = (idx + first_wday) // 7
         row_idx = (idx + first_wday) % 7
 
-        # Coordinates
         x = padding_left + col_idx * (box_size + gap)
         y = padding_top + row_idx * (box_size + gap)
 
-        # Map level
         level = day["level"]
         count = day["count"]
         
-        # Enhanced coloring: give very high count days the neon green (level 5)
         level_idx = level
         if level == 4 and count >= 10:
             level_idx = 5
         level_idx = max(0, min(level_idx, len(PALETTE) - 1))
         color = PALETTE[level_idx]
 
-        # Diagonal stagger delay calculation
-        delay = (col_idx + row_idx) * 0.015
+        delay = (col_idx + row_idx) * 0.014
 
         rect_elements.append(
-            f'  <rect x="{x}" y="{y}" width="{box_size}" height="{box_size}" rx="2" fill="{color}" class="day-rect" style="animation-delay: {delay:.3f}s;"/>'
+            f'  <rect x="{x:.2f}" y="{y:.2f}" width="{box_size}" height="{box_size}" rx="2" fill="{color}" class="day-rect" style="animation-delay: {delay:.3f}s;"/>'
         )
 
-        # Track month transitions
         month_name = d.strftime("%b")
         year_month = d.strftime("%Y-%m")
         if year_month not in seen_months:
             seen_months.add(year_month)
             month_labels.append((col_idx, month_name))
 
-    # Clean Month labels (avoid overlapping by enforcing distance of at least 3 columns)
     month_elements = []
     last_label_col = -5
     for col_idx, name in month_labels:
         if col_idx - last_label_col >= 3 and col_idx < 52:
             x = padding_left + col_idx * (box_size + gap)
             y = padding_top - 8
-            month_elements.append(f'  <text x="{x}" y="{y}" class="legend-text">{name}</text>')
+            month_elements.append(f'  <text x="{x:.2f}" y="{y:.2f}" class="legend-text">{name}</text>')
             last_label_col = col_idx
 
-    # Day labels
     day_labels = [("Mon", 1), ("Wed", 3), ("Fri", 5)]
     day_elements = []
     for label, row_idx in day_labels:
-        y = padding_top + row_idx * (box_size + gap) + 10
-        x = padding_left - 8
-        day_elements.append(f'  <text x="{x}" y="{y}" class="legend-text" text-anchor="end">{label}</text>')
+        y = padding_top + row_idx * (box_size + gap) + 9
+        x = padding_left - 6
+        day_elements.append(f'  <text x="{x:.2f}" y="{y:.2f}" class="legend-text" text-anchor="end">{label}</text>')
 
-    # Legend Less -> More
     legend_elements = []
-    legend_x_start = 695
-    legend_y = 145
-    legend_elements.append(f'  <text x="{legend_x_start}" y="{legend_y + 10}" class="legend-text">Less</text>')
+    legend_x_start = 605
+    legend_y = 142
+    legend_elements.append(f'  <text x="{legend_x_start}" y="{legend_y + 9}" class="legend-text">Less</text>')
     
     for c_idx, color in enumerate(PALETTE):
-        rx = legend_x_start + 35 + c_idx * (box_size + 2)
+        rx = legend_x_start + 30 + c_idx * (box_size + 2)
         legend_elements.append(
-            f'  <rect x="{rx}" y="{legend_y}" width="{box_size}" height="{box_size}" rx="2" fill="{color}"/>'
+            f'  <rect x="{rx:.2f}" y="{legend_y:.2f}" width="{box_size}" height="{box_size}" rx="2" fill="{color}"/>'
         )
     
     legend_elements.append(
-        f'  <text x="{legend_x_start + 35 + len(PALETTE) * (box_size + 2) + 5}" y="{legend_y + 10}" class="legend-text">More</text>'
+        f'  <text x="{legend_x_start + 30 + len(PALETTE) * (box_size + 2) + 4}" y="{legend_y + 9}" class="legend-text">More</text>'
     )
 
-    # Stats strings
     stats_left = f"{total:,} contributions in the last year"
     best_day_date = datetime.strptime(best_day["date"], "%Y-%m-%d").strftime("%B %d, %Y") if best_day["date"] else ""
     best_day_str = f"Best: {best_day['count']} ({best_day_date})" if best_day["count"] > 0 else ""
@@ -127,12 +115,12 @@ def main():
   <style>
     .legend-text {{
       font-family: 'Fira Code', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
-      font-size: 9px;
+      font-size: 8.5px;
       fill: #8b949e;
     }}
     .stat-text {{
       font-family: 'Fira Code', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
-      font-size: 11px;
+      font-size: 10.5px;
       fill: #cbd5e1;
     }}
     .day-rect {{
@@ -166,9 +154,9 @@ def main():
 {chr(10).join(legend_elements)}
 
   <!-- Stats Footer -->
-  <line x1="25" y1="165" x2="{view_w - 25}" y2="165" stroke="#1f2937" stroke-width="1"/>
-  <text x="35" y="180" class="stat-text">{stats_left}</text>
-  <text x="{view_w - 35}" y="180" class="stat-text" text-anchor="end">{stats_right}</text>
+  <line x1="20" y1="160" x2="{view_w - 20}" y2="160" stroke="#1f2937" stroke-width="1"/>
+  <text x="25" y="176" class="stat-text">{stats_left}</text>
+  <text x="{view_w - 25}" y="176" class="stat-text" text-anchor="end">{stats_right}</text>
 </svg>
 """
 

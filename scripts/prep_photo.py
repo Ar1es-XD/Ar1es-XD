@@ -50,36 +50,31 @@ def main():
 
     h, w, _ = img.shape
 
-    # 2. Crop to Newton head & upper torso (8% to 65% Y, 20% to 80% X)
-    crop_y1, crop_y2 = int(h * 0.08), int(h * 0.65)
-    crop_x1, crop_x2 = int(w * 0.20), int(w * 0.80)
+    # 2. Crop to head & upper torso (12% to 62% Y, 25% to 75% X)
+    crop_y1, crop_y2 = int(h * 0.12), int(h * 0.62)
+    crop_x1, crop_x2 = int(w * 0.25), int(w * 0.75)
     cropped = img[crop_y1:crop_y2, crop_x1:crop_x2]
 
-    # 3. Convert to Grayscale
+    # 3. Grayscale & Normalize
     gray = cv2.cvtColor(cropped, cv2.COLOR_BGR2GRAY)
+    gray_norm = cv2.normalize(gray, None, 0, 255, cv2.NORM_MINMAX)
 
-    # 4. Subject isolation: Elliptical mask centered on portrait
-    ch, cw = gray.shape
-    mask = np.zeros_like(gray)
-    cv2.ellipse(mask, (cw // 2, int(ch * 0.50)), (int(cw * 0.45), int(ch * 0.48)), 0, 0, 360, 255, -1)
-    gray_masked = np.where((mask == 0) | (gray < 40), 255, gray)
+    # 4. Extract prominent facial feature edges (eyes, eyebrows, nose, mouth, wig)
+    edges = cv2.Canny(gray_norm, 40, 130)
+    edges_dilated = cv2.dilate(edges, np.ones((2, 2), np.uint8), iterations=1)
 
-    # 5. Bilateral filter to smooth skin noise while preserving strong structural edges (eyes, jaw, hair)
-    smoothed = cv2.bilateralFilter(gray_masked, d=7, sigmaColor=50, sigmaSpace=50)
+    # Combine gray tones with edges: edges sharpen facial features
+    blended = cv2.addWeighted(gray_norm, 0.75, 255 - edges_dilated, 0.25, 0)
 
-    # 6. Soften nostril shadow holes in central face area
-    face_y1, face_y2 = int(ch * 0.35), int(ch * 0.60)
-    face_x1, face_x2 = int(cw * 0.35), int(cw * 0.65)
-    face_region = smoothed[face_y1:face_y2, face_x1:face_x2]
-    smoothed[face_y1:face_y2, face_x1:face_x2] = np.where(face_region < 110, 125, face_region)
-
-    # 7. Mild CLAHE contrast equalization
-    clahe = cv2.createCLAHE(clipLimit=1.6, tileGridSize=(8, 8))
-    gray_prepped = clahe.apply(smoothed)
+    # 5. Mask background around face & wig
+    ch, cw = blended.shape
+    mask = np.zeros_like(blended)
+    cv2.ellipse(mask, (cw // 2, int(ch * 0.48)), (int(cw * 0.44), int(ch * 0.47)), 0, 0, 360, 255, -1)
+    final_prepped = np.where((mask == 0) | (blended > 215), 255, blended)
 
     output_path = "source-prepped.png"
-    cv2.imwrite(output_path, gray_prepped)
-    print(f"Successfully prepped smooth facial portrait and saved to {output_path}")
+    cv2.imwrite(output_path, final_prepped)
+    print(f"Successfully prepped edge-enhanced facial portrait and saved to {output_path}")
 
 if __name__ == "__main__":
     main()
