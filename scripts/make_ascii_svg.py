@@ -49,10 +49,10 @@ def main():
         line_chars = []
         for c in range(cols):
             val = resized[r, c]
-            if val >= 210:
+            if val >= 190:
                 line_chars.append(" ")
             else:
-                norm = (210.0 - val) / 210.0
+                norm = (190.0 - val) / 190.0
                 curved = np.power(norm, 1.1)
                 idx = int(curved * (len(RAMP) - 1)) + 1
                 idx = min(idx, len(RAMP) - 1)

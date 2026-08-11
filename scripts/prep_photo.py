@@ -68,8 +68,9 @@ def main():
     face_region = smoothed[face_y1:face_y2, face_x1:face_x2]
     smoothed[face_y1:face_y2, face_x1:face_x2] = np.where(face_region < 110, 125, face_region)
 
-    # 6. Map dark background pixels (< 50) to pure white (255 / space) without hard oval slicing
-    final_prepped = np.where(smoothed < 50, 255, smoothed)
+    # 6. Map dark background pixels (< 90) to pure white (255 / space) without hard oval slicing
+    # The painting's brown-gray background is ~120-200; threshold at 90 catches the darkest portions
+    final_prepped = np.where(smoothed < 90, 255, smoothed)
 
     output_path = "source-prepped.png"
     cv2.imwrite(output_path, final_prepped)
