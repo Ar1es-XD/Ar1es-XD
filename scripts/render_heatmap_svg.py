@@ -20,13 +20,13 @@ def main():
     longest_streak = data["longest_streak"]
     best_day = data["best_day"]
 
-    # Configs matching exactly 760px width
-    view_w = 760
-    view_h = 195
-    box_size = 11
-    gap = 2.5
-    padding_left = 25
-    padding_top = 32
+    # Configs matching exactly 860px width
+    view_w = 860
+    view_h = 200
+    box_size = 12
+    gap = 2.8
+    padding_left = 30
+    padding_top = 35
 
     # Palette
     PALETTE = ["#161b22", "#0e4429", "#006d32", "#26a641", "#39d353", "#69f0a0"]
@@ -89,8 +89,8 @@ def main():
         day_elements.append(f'  <text x="{x:.2f}" y="{y:.2f}" class="legend-text" text-anchor="end">{label}</text>')
 
     legend_elements = []
-    legend_x_start = 605
-    legend_y = 142
+    legend_x_start = 685
+    legend_y = 145
     legend_elements.append(f'  <text x="{legend_x_start}" y="{legend_y + 9}" class="legend-text">Less</text>')
     
     for c_idx, color in enumerate(PALETTE):
@@ -115,12 +115,12 @@ def main():
   <style>
     .legend-text {{
       font-family: 'Fira Code', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
-      font-size: 8.5px;
+      font-size: 9px;
       fill: #8b949e;
     }}
     .stat-text {{
       font-family: 'Fira Code', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
-      font-size: 10.5px;
+      font-size: 11px;
       fill: #cbd5e1;
     }}
     .day-rect {{
@@ -154,9 +154,9 @@ def main():
 {chr(10).join(legend_elements)}
 
   <!-- Stats Footer -->
-  <line x1="20" y1="160" x2="{view_w - 20}" y2="160" stroke="#1f2937" stroke-width="1"/>
-  <text x="25" y="176" class="stat-text">{stats_left}</text>
-  <text x="{view_w - 25}" y="176" class="stat-text" text-anchor="end">{stats_right}</text>
+  <line x1="20" y1="165" x2="{view_w - 20}" y2="165" stroke="#1f2937" stroke-width="1"/>
+  <text x="30" y="180" class="stat-text">{stats_left}</text>
+  <text x="{view_w - 30}" y="180" class="stat-text" text-anchor="end">{stats_right}</text>
 </svg>
 """
 

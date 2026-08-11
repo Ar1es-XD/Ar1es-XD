@@ -1,15 +1,15 @@
 <div align="center">
 
 <h3><code>ar1es-xd@github ~ $ ./contributions.sh</code></h3>
-<img src="https://raw.githubusercontent.com/Ar1es-XD/Ar1es-XD/main/contrib-heatmap.svg" width="760" alt="Contribution Heatmap" />
+<img src="https://raw.githubusercontent.com/Ar1es-XD/Ar1es-XD/main/contrib-heatmap.svg" width="860" alt="Contribution Heatmap" />
 
 <br><br>
 
 <h3><code>ar1es-xd@github ~ $ whoami</code></h3>
 <table>
   <tr>
-    <td valign="top" align="center"><img src="https://raw.githubusercontent.com/Ar1es-XD/Ar1es-XD/main/avi-ascii.svg" width="330" alt="ASCII Portrait" /></td>
-    <td valign="top" align="center"><img src="https://raw.githubusercontent.com/Ar1es-XD/Ar1es-XD/main/info-card.svg" width="430" alt="Neofetch Info Card" /></td>
+    <td valign="top" align="center"><img src="https://raw.githubusercontent.com/Ar1es-XD/Ar1es-XD/main/avi-ascii.svg" width="370" alt="ASCII Portrait" /></td>
+    <td valign="top" align="center"><img src="https://raw.githubusercontent.com/Ar1es-XD/Ar1es-XD/main/info-card.svg" width="490" alt="Neofetch Info Card" /></td>
   </tr>
 </table>
 
@@ -97,7 +97,7 @@
 <div align="center">
 <table>
 <tr>
-<td width="760">
+<td width="860">
 <p align="left"><code><b>[SYS_LANGUAGES]</b></code></p>
 <p align="left"><img src="https://skillicons.dev/icons?i=python,ts,js,html,css,cpp,c&theme=dark" alt="Languages" /></p>
 <p align="left"><code><b>[SYS_FRAMEWORKS]</b></code></p>
