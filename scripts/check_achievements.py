@@ -14,10 +14,6 @@ TRACKABLE = [
     "Quickdraw",
     "YOLO",
     "Pull Shark",
-    "Pair Extraordinaire",
-    "Starstruck",
-    "Galaxy Brain",
-    "Arctic Code Vault Contributor",
 ]
 
 
