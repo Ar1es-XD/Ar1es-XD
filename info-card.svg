@@ -85,8 +85,8 @@
     <text x="22" y="310" class="divider">--------------------</text>
   </g>
   <g class="animate-line line-13">
-    <text x="22" y="333" class="quote">&quot;Truth is ever to be found in simplicity,&quot;</text>
-    <text x="22" y="350" class="quote">&quot;and not in confusion.&quot; — Sir Isaac Newton</text>
+    <text x="22" y="333" class="quote">&quot;Truth is ever to be found in simplicity,</text>
+    <text x="22" y="350" class="quote">and not in confusion.&quot; — Sir Isaac Newton</text>
   </g>
   <g class="animate-line line-14">
     <rect x="22" y="374" width="22" height="14" fill="#161b22" rx="2"/>
