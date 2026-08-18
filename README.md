@@ -1,13 +1,13 @@
 <div align="center">
 
   <!-- Header Banner -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&custom_color_list=00ffff,7b5cff,00ff88&height=200&section=header&text=Chinmaya%20(Ar1es-XD)&fontSize=42&fontColor=ffffff&fontAlignY=38&desc=Full-Stack%20Engineer%20%7C%20Biomedical%20AI%20Researcher&descFontSize=18&descAlignY=58" width="100%" alt="Chinmaya Banner" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&custom_color_list=00ffff,7b5cff,00ff88&height=200&section=header&text=Chinmaya%20(Ar1es-XD)&fontSize=42&fontColor=ffffff&fontAlignY=38&desc=CS%20Undergrad%20%7C%20Full-Stack%20Developer%20%26%20Aspiring%20ML%20Researcher&descFontSize=18&descAlignY=58" width="100%" alt="Chinmaya Banner" />
 
   <br>
 
   <!-- Animated Typing Subtitle -->
   <a href="https://github.com/Ar1es-XD">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=00FFFF&center=true&vCenter=true&width=650&lines=Full-Stack+Engineer+%7C+AI+%26+Systems+Builder;Biomedical+AI+Researcher+%40+ESM-Mamba;Architecting+Deterministic+Tooling+%26+Next-Gen+Web+Apps" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=00FFFF&center=true&vCenter=true&width=650&lines=CS+Undergrad+%26+Full-Stack+Builder;Exploring+State-Space+Models+%26+ESM-Mamba;Architecting+Deterministic+Tooling+%26+Modern+Web+Apps" alt="Typing SVG" />
   </a>
 
 </div>
@@ -19,13 +19,13 @@
 ```yaml
 identity:
   name: Chinmaya (Ar1es-XD)
-  roles: [Full-Stack Developer, AI/ML Researcher, Systems Architect]
-  specialization: [Selective State-Space Models (Mamba), Distributed Systems, Modern Web Platforms]
+  roles: [Computer Science Undergrad, Full-Stack Developer, Aspiring ML Researcher]
+  specialization: [Modern Web Platforms, Selective State-Space Models (Mamba), Distributed Systems]
 
 current_focus:
-  biomedical_ai:
-    - Training ESM-Mamba (MambaCross) neural models and Graph Transformers for antibody neutralization prediction.
-    - Modeling complex biological sequences via continuous state-space representations.
+  machine_learning_exploration:
+    - Exploring Selective State-Space Models (VMamba) and Graph Transformers on ESM-2 embeddings.
+    - Researching deep learning representations for biological sequences & antibody prediction.
   full_stack_engineering:
     - Building high-performance, real-time web applications with Next.js, TypeScript, Prisma & Supabase.
     - Engineering deterministic Git automation and developer productivity toolchains.
@@ -50,7 +50,7 @@ current_focus:
 <td width="50%" valign="top">
 <p align="left">
   <a href="https://github.com/Ar1es-XD/Esm-Mamba-Neural"><code><b>🧬 ESM-MAMBA (NEURAL)</b></code></a> <a href="https://github.com/Ar1es-XD/Esm-Mamba-Neural"><img src="https://img.shields.io/badge/RESEARCH-00ffff?style=flat-square&logoWidth=0" align="right" alt="Research" /></a><br>
-  <sub>Predicting broad antibody neutralization using Selective State-Space Models (VMamba) trained on ESM-2 embeddings.</sub><br><br>
+  <sub>Exploring antibody neutralization prediction using Selective State-Space Models (VMamba) trained on ESM-2 embeddings.</sub><br><br>
   <code>Python</code> · <code>PyTorch</code> · <code>VMamba</code> · <code>Bioinformatics</code>
 </p>
 </td>
@@ -100,7 +100,7 @@ current_focus:
 | :--- | :--- |
 | **Languages** | <img src="https://skillicons.dev/icons?i=python,ts,js,cpp,c,bash,html,css&theme=dark" alt="Languages" /> |
 | **Frontend & Frameworks** | <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,nodejs,express&theme=dark" alt="Frontend & Frameworks" /> |
-| **AI / ML & Research** | <img src="https://skillicons.dev/icons?i=pytorch,cuda,scikitlearn&theme=dark" alt="AI / ML" /> |
+| **AI / ML & Data** | <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,scikitlearn,opencv&theme=dark" alt="AI / ML & Data" /> |
 | **Databases & Cloud** | <img src="https://skillicons.dev/icons?i=postgres,supabase,prisma&theme=dark" alt="Databases" /> |
 | **DevOps & Workflows** | <img src="https://skillicons.dev/icons?i=docker,git,githubactions,linux,vscode&theme=dark" alt="DevOps" /> |
 
