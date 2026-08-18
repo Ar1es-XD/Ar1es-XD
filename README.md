@@ -1,26 +1,14 @@
 <div align="center">
 
   <!-- Header Banner -->
-  <picture>
-    <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/header?username=Ar1es-XD&theme=neon&mode=light" />
-    <img src="https://www.gitskins.com/api/section/header?username=Ar1es-XD&theme=neon" alt="Ar1es-XD Header" width="100%" />
-  </picture>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&custom_color_list=00ffff,7b5cff,00ff88&height=200&section=header&text=Chinmaya%20(Ar1es-XD)&fontSize=42&fontColor=ffffff&fontAlignY=38&desc=Full-Stack%20Engineer%20%7C%20Biomedical%20AI%20Researcher&descFontSize=18&descAlignY=58" width="100%" alt="Chinmaya Banner" />
 
-  <br><br>
+  <br>
 
   <!-- Animated Typing Subtitle -->
   <a href="https://github.com/Ar1es-XD">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=00FFFF&center=true&vCenter=true&width=650&lines=Full-Stack+Engineer+%7C+AI+%26+Systems+Builder;Biomedical+AI+Researcher+%40+ESM-Mamba;Architecting+Deterministic+Tooling+%26+Next-Gen+Web+Apps" alt="Typing SVG" />
   </a>
-
-  <br>
-
-  <!-- Quick Status & Metric Badges -->
-  <p align="center">
-    <a href="https://github.com/Ar1es-XD"><img src="https://img.shields.io/github/followers/Ar1es-XD?label=Followers&style=for-the-badge&color=00ffff&labelColor=0d1117" alt="Followers" /></a>
-    <a href="https://github.com/Ar1es-XD?tab=repositories"><img src="https://img.shields.io/badge/Public%20Repos-16-00e5ff?style=for-the-badge&labelColor=0d1117" alt="Public Repos" /></a>
-    <a href="mailto:chinmaya.aries@gmail.com"><img src="https://img.shields.io/badge/Status-Building%20%26%20Shipping-00ff88?style=for-the-badge&labelColor=0d1117" alt="Status" /></a>
-  </p>
 
 </div>
 
@@ -124,50 +112,29 @@ current_focus:
 
 <div align="center">
 
-  <!-- GitSkins Dynamic Stats Card -->
-  <picture>
-    <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/stats?username=Ar1es-XD&theme=neon&mode=light" />
-    <img src="https://www.gitskins.com/api/section/stats?username=Ar1es-XD&theme=neon" alt="GitHub Stats" width="860" />
-  </picture>
-
-  <br><br>
-
-  <!-- GitHub Streak & Top Languages -->
+  <!-- GitHub Stats & Top Languages -->
   <a href="https://github.com/Ar1es-XD">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=Ar1es-XD&theme=tokyonight&hide_border=true&background=08080C&ring=00FFFF&fire=00FFFF&currStreakLabel=00FFFF" alt="GitHub Streak" height="165" />
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ar1es-XD&layout=compact&theme=tokyonight&hide_border=true&bg_color=08080C&title_color=00FFFF&text_color=94A3B8" alt="Top Languages" height="165" />
+    <img src="https://github-readme-stats-fast.vercel.app/api?username=Ar1es-XD&show_icons=true&theme=tokyonight&hide_border=true&bg_color=08080C&title_color=00FFFF&icon_color=00FFFF&text_color=94A3B8&include_all_commits=true&count_private=true" alt="GitHub Stats" height="175" />
+    <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=Ar1es-XD&layout=compact&theme=tokyonight&hide_border=true&bg_color=08080C&title_color=00FFFF&text_color=94A3B8&langs_count=8" alt="Top Languages" height="175" />
   </a>
 
   <br><br>
 
-  <!-- GitSkins Activity Heatmap -->
-  <picture>
-    <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/heatmap?username=Ar1es-XD&theme=neon&mode=light" />
-    <img src="https://www.gitskins.com/api/section/heatmap?username=Ar1es-XD&theme=neon" alt="Activity Heatmap" width="860" />
-  </picture>
+  <!-- GitHub Streak Stats -->
+  <a href="https://github.com/Ar1es-XD">
+    <img src="https://github-readme-streak-stats-eight.vercel.app/?user=Ar1es-XD&theme=tokyonight&hide_border=true&background=08080C&ring=00FFFF&fire=00FFFF&currStreakLabel=00FFFF" alt="GitHub Streak" width="860" />
+  </a>
+
+  <br><br>
+
+  <!-- Activity Graph -->
+  <a href="https://github.com/Ar1es-XD">
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=Ar1es-XD&theme=tokyo-night&hide_border=true&area=true&color=00ffff&bg_color=08080C" alt="Contribution Activity Graph" width="860" />
+  </a>
 
 </div>
 
----
-
-### 🌐 Connect & Collaborate
-
+<br>
 <div align="center">
-
-  <picture>
-    <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/connect?username=Ar1es-XD&theme=neon&mode=light" />
-    <img src="https://www.gitskins.com/api/section/connect?username=Ar1es-XD&theme=neon" alt="Connect Section" width="860" />
-  </picture>
-
-  <br><br>
-
-  <a href="https://github.com/Ar1es-XD"><img src="https://img.shields.io/badge/GitHub-Ar1es--XD-00ffff?style=for-the-badge&logo=github&logoColor=08080c&labelColor=0d1117" alt="GitHub" /></a>
-  <a href="mailto:chinmaya.aries@gmail.com"><img src="https://img.shields.io/badge/Email-Get%20in%20Touch-00e5ff?style=for-the-badge&logo=gmail&logoColor=08080c&labelColor=0d1117" alt="Email" /></a>
-  <a href="https://linkedin.com"><img src="https://img.shields.io/badge/LinkedIn-Connect-00ff88?style=for-the-badge&logo=linkedin&logoColor=08080c&labelColor=0d1117" alt="LinkedIn" /></a>
-  <a href="https://twitter.com"><img src="https://img.shields.io/badge/X%20(Twitter)-Follow-7b5cff?style=for-the-badge&logo=x&logoColor=ffffff&labelColor=0d1117" alt="Twitter" /></a>
-
-  <br><br>
-
   <sub><i>⚡ "Clean architecture, deterministic commits, continuous iteration."</i></sub>
-
 </div>
