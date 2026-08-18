@@ -1,13 +1,13 @@
 <div align="center">
 
   <!-- Header Banner -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&custom_color_list=00ffff,7b5cff,00ff88&height=200&section=header&text=Chinmaya%20(Ar1es-XD)&fontSize=42&fontColor=ffffff&fontAlignY=38&desc=CS%20Undergrad%20%7C%20Full-Stack%20Developer%20%26%20Aspiring%20ML%20Researcher&descFontSize=18&descAlignY=58" width="100%" alt="Chinmaya Banner" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&custom_color_list=00ffff,7b5cff,00ff88&height=200&section=header&text=Chinmaya%20(Ar1es-XD)&fontSize=42&fontColor=ffffff&fontAlignY=38&desc=CS%20Undergrad%20%7C%20Full-Stack%20Developer%20%2B%20Aspiring%20ML%20Researcher&descFontSize=18&descAlignY=58" width="100%" alt="Chinmaya Banner" />
 
   <br>
 
   <!-- Animated Typing Subtitle -->
   <a href="https://github.com/Ar1es-XD">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=00FFFF&center=true&vCenter=true&width=650&lines=CS+Undergrad+%26+Full-Stack+Builder;Exploring+State-Space+Models+%26+ESM-Mamba;Architecting+Deterministic+Tooling+%26+Modern+Web+Apps" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=00FFFF&center=true&vCenter=true&width=650&lines=CS+Undergrad+%2B+Full-Stack+Builder;Exploring+State-Space+Models+%2B+ESM-Mamba;Architecting+Deterministic+Tooling+%2B+Modern+Web+Apps" alt="Typing SVG" />
   </a>
 
 </div>
