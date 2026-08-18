@@ -81,9 +81,9 @@ current_focus:
 </td>
 <td width="50%" valign="top">
 <p align="left">
-  <a href="https://github.com/Ar1es-XD/Shetty-Flix"><code><b>🎬 SHETTY-FLIX</b></code></a> <a href="https://github.com/The-Ar1es/Shetty-Flix"><img src="https://img.shields.io/badge/STABLE-7b5cff?style=flat-square&logoWidth=0" align="right" alt="Stable" /></a><br>
-  <sub>Responsive media streaming UI with custom interactive micro-animations and rich catalog discovery.</sub><br><br>
-  <code>JavaScript</code> · <code>HTML5</code> · <code>Modern CSS</code>
+  <a href="https://github.com/Ar1es-XD/nst-attendance"><code><b>🎓 NST ATTENDANCE</b></code></a> <a href="https://github.com/Ar1es-XD/nst-attendance"><img src="https://img.shields.io/badge/PRODUCTION-00ff88?style=flat-square&logoWidth=0" align="right" alt="Production" /></a><br>
+  <sub>Real-time LMS attendance tracker & planner with bunk calculation engine, simulation mode, and CLI tools.</sub><br><br>
+  <code>React 19</code> · <code>Vite</code> · <code>Python</code> · <code>Vercel</code>
 </p>
 </td>
 </tr>
