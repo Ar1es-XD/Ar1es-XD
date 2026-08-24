@@ -14,7 +14,7 @@
 
 ---
 
-### 🧬 About & Core Focus
+### About & Core Focus
 
 ```yaml
 identity:
@@ -35,7 +35,7 @@ current_focus:
 
 ---
 
-### 🚀 Featured Deployments & Research
+### Featured Deployments & Research
 
 <div align="center">
 <table>
@@ -92,7 +92,7 @@ current_focus:
 
 ---
 
-### 🛠️ Tech Stack & Ecosystem
+### Tech Stack & Ecosystem
 
 <div align="center">
 
