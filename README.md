@@ -42,14 +42,14 @@ current_focus:
 <tr>
 <td width="50%" valign="top">
 <p align="left">
-  <a href="https://github.com/Ar1es-XD/Algora"><code><b>⚡ ALGORA</b></code></a> <a href="https://github.com/Ar1es-XD/Algora"><img src="https://img.shields.io/badge/PRODUCTION-00ff88?style=flat-square&logoWidth=0" align="right" alt="Production" /></a><br>
+  <a href="https://github.com/Ar1es-XD/Algora"><code><b> ALGORA</b></code></a> <a href="https://github.com/Ar1es-XD/Algora"><img src="https://img.shields.io/badge/PRODUCTION-00ff88?style=flat-square&logoWidth=0" align="right" alt="Production" /></a><br>
   <sub>Interactive algorithm visualization & adaptive learning platform to master complex DSA with real-time feedback.</sub><br><br>
   <code>Next.js</code> · <code>TypeScript</code> · <code>Prisma</code> · <code>TailwindCSS</code>
 </p>
 </td>
 <td width="50%" valign="top">
 <p align="left">
-  <a href="https://github.com/Ar1es-XD/Esm-Mamba-Neural"><code><b>🧬 ESM-MAMBA (NEURAL)</b></code></a> <a href="https://github.com/Ar1es-XD/Esm-Mamba-Neural"><img src="https://img.shields.io/badge/RESEARCH-00ffff?style=flat-square&logoWidth=0" align="right" alt="Research" /></a><br>
+  <a href="https://github.com/Ar1es-XD/Esm-Mamba-Neural"><code><b> ESM-MAMBA (NEURAL)</b></code></a> <a href="https://github.com/Ar1es-XD/Esm-Mamba-Neural"><img src="https://img.shields.io/badge/RESEARCH-00ffff?style=flat-square&logoWidth=0" align="right" alt="Research" /></a><br>
   <sub>Exploring antibody neutralization prediction using Selective State-Space Models (VMamba) trained on ESM-2 embeddings.</sub><br><br>
   <code>Python</code> · <code>PyTorch</code> · <code>VMamba</code> · <code>Bioinformatics</code>
 </p>
@@ -58,14 +58,14 @@ current_focus:
 <tr>
 <td width="50%" valign="top">
 <p align="left">
-  <a href="https://github.com/Ar1es-XD/task-tracker"><code><b>📋 TASK TRACKER</b></code></a> <a href="https://github.com/Ar1es-XD/task-tracker"><img src="https://img.shields.io/badge/PRODUCTION-00ff88?style=flat-square&logoWidth=0" align="right" alt="Production" /></a><br>
+  <a href="https://github.com/Ar1es-XD/task-tracker"><code><b> TASK TRACKER</b></code></a> <a href="https://github.com/Ar1es-XD/task-tracker"><img src="https://img.shields.io/badge/PRODUCTION-00ff88?style=flat-square&logoWidth=0" align="right" alt="Production" /></a><br>
   <sub>Full-stack Kanban task manager featuring Google OAuth, Google Calendar sync, optimistic updates & dark mode.</sub><br><br>
   <code>Next.js</code> · <code>Prisma</code> · <code>Supabase</code> · <code>OAuth</code>
 </p>
 </td>
 <td width="50%" valign="top">
 <p align="left">
-  <a href="https://github.com/Ar1es-XD/Esm-Mamba-Graph_Transformer"><code><b>🕸️ ESM-MAMBA (GRAPH)</b></code></a> <a href="https://github.com/Ar1es-XD/Esm-Mamba-Graph_Transformer"><img src="https://img.shields.io/badge/RESEARCH-00ffff?style=flat-square&logoWidth=0" align="right" alt="Research" /></a><br>
+  <a href="https://github.com/Ar1es-XD/Esm-Mamba-Graph_Transformer"><code><b> ESM-MAMBA (GRAPH)</b></code></a> <a href="https://github.com/Ar1es-XD/Esm-Mamba-Graph_Transformer"><img src="https://img.shields.io/badge/RESEARCH-00ffff?style=flat-square&logoWidth=0" align="right" alt="Research" /></a><br>
   <sub>Graph Attention Transformers (PyG) modeling structural epitope contacts and multi-variant viral neutralization.</sub><br><br>
   <code>PyTorch Geometric</code> · <code>PyTorch</code> · <code>Graph Transformers</code>
 </p>
@@ -74,14 +74,14 @@ current_focus:
 <tr>
 <td width="50%" valign="top">
 <p align="left">
-  <a href="https://github.com/Ar1es-XD/EmpowerMe"><code><b>🎙️ EMPOWERME</b></code></a> <a href="https://github.com/Ar1es-XD/EmpowerMe"><img src="https://img.shields.io/badge/PRODUCTION-00ff88?style=flat-square&logoWidth=0" align="right" alt="Production" /></a><br>
+  <a href="https://github.com/Ar1es-XD/EmpowerMe"><code><b> EMPOWERME</b></code></a> <a href="https://github.com/Ar1es-XD/EmpowerMe"><img src="https://img.shields.io/badge/PRODUCTION-00ff88?style=flat-square&logoWidth=0" align="right" alt="Production" /></a><br>
   <sub>Voice-powered accessibility platform translating complex legal regulations into clear, plain-language insights.</sub><br><br>
   <code>React</code> · <code>Web Speech API</code> · <code>TailwindCSS</code>
 </p>
 </td>
 <td width="50%" valign="top">
 <p align="left">
-  <a href="https://github.com/Ar1es-XD/nst-attendance"><code><b>🎓 NST ATTENDANCE</b></code></a> <a href="https://github.com/Ar1es-XD/nst-attendance"><img src="https://img.shields.io/badge/PRODUCTION-00ff88?style=flat-square&logoWidth=0" align="right" alt="Production" /></a><br>
+  <a href="https://github.com/Ar1es-XD/nst-attendance"><code><b> NST ATTENDANCE</b></code></a> <a href="https://github.com/Ar1es-XD/nst-attendance"><img src="https://img.shields.io/badge/PRODUCTION-00ff88?style=flat-square&logoWidth=0" align="right" alt="Production" /></a><br>
   <sub>Real-time LMS attendance tracker & planner with bunk calculation engine, simulation mode, and CLI tools.</sub><br><br>
   <code>React 19</code> · <code>Vite</code> · <code>Python</code> · <code>Vercel</code>
 </p>
