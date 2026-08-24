@@ -108,18 +108,7 @@ current_focus:
 
 ---
 
-### 📊 Real-Time GitHub Intelligence
-
-<div align="center">
-
-  <!-- GitHub Stats & Top Languages -->
-  <a href="https://github.com/Ar1es-XD">
-    <img src="https://github-readme-stats-fast.vercel.app/api?username=Ar1es-XD&show_icons=true&theme=tokyonight&hide_border=true&bg_color=08080C&title_color=00FFFF&icon_color=00FFFF&text_color=94A3B8&include_all_commits=true&count_private=true" alt="GitHub Stats" height="175" />
-    <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=Ar1es-XD&layout=compact&theme=tokyonight&hide_border=true&bg_color=08080C&title_color=00FFFF&text_color=94A3B8&langs_count=8" alt="Top Languages" height="175" />
-  </a>
-
-  <br><br>
-
+### Current Statistics
   <!-- GitHub Streak Stats -->
   <a href="https://github.com/Ar1es-XD">
     <img src="https://github-readme-streak-stats-eight.vercel.app/?user=Ar1es-XD&theme=tokyonight&hide_border=true&background=08080C&ring=00FFFF&fire=00FFFF&currStreakLabel=00FFFF" alt="GitHub Streak" width="860" />
