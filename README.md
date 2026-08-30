@@ -115,13 +115,6 @@ current_focus:
   </a>
 
   <br><br>
-<div>
-  <!-- Activity Graph -->
-  <a href="https://github.com/Ar1es-XD">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=Ar1es-XD&theme=tokyo-night&hide_border=true&area=true&color=00ffff&bg_color=08080C" alt="Contribution Activity Graph" width="860" />
-  </a>
-
-</div>
 
 <br>
 <div align="center">
