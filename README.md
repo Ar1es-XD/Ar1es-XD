@@ -20,12 +20,11 @@
 identity:
   name: Chinmaya (Ar1es-XD)
   roles: [Computer Science Undergrad, Full-Stack Developer, Aspiring ML Researcher]
-  specialization: [Modern Web Platforms, Selective State-Space Models (Mamba), Distributed Systems]
+  specialization: [Modern Web Platforms, Distributed Systems]
 
 current_focus:
   machine_learning_exploration:
-    - Exploring Selective State-Space Models (VMamba) and Graph Transformers on ESM-2 embeddings.
-    - Researching deep learning representations for biological sequences & antibody prediction.
+    - Researching deep learning.
   full_stack_engineering:
     - Building high-performance, real-time web applications with Next.js, TypeScript, Prisma & Supabase.
     - Engineering deterministic Git automation and developer productivity toolchains.
