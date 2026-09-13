@@ -1,12 +1,12 @@
 {
   "username": "Ar1es-XD",
-  "total": 538,
+  "total": 544,
   "best_day": {
     "date": "2026-09-06",
     "count": 163
   },
-  "current_streak": 41,
-  "longest_streak": 41,
+  "current_streak": 42,
+  "longest_streak": 42,
   "monthly_totals": {
     "2025-09": 0,
     "2025-10": 0,
@@ -20,44 +20,9 @@
     "2026-06": 1,
     "2026-07": 59,
     "2026-08": 229,
-    "2026-09": 223
+    "2026-09": 229
   },
   "days": [
-    {
-      "date": "2025-09-07",
-      "count": 0,
-      "level": 0
-    },
-    {
-      "date": "2025-09-08",
-      "count": 0,
-      "level": 0
-    },
-    {
-      "date": "2025-09-09",
-      "count": 0,
-      "level": 0
-    },
-    {
-      "date": "2025-09-10",
-      "count": 0,
-      "level": 0
-    },
-    {
-      "date": "2025-09-11",
-      "count": 0,
-      "level": 0
-    },
-    {
-      "date": "2025-09-12",
-      "count": 0,
-      "level": 0
-    },
-    {
-      "date": "2025-09-13",
-      "count": 0,
-      "level": 0
-    },
     {
       "date": "2025-09-14",
       "count": 0,
@@ -1875,7 +1840,12 @@
     },
     {
       "date": "2026-09-12",
-      "count": 3,
+      "count": 7,
+      "level": 1
+    },
+    {
+      "date": "2026-09-13",
+      "count": 2,
       "level": 1
     }
   ]
