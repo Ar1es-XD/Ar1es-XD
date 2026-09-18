@@ -1,7 +1,7 @@
 <div align="center">
 
   <!-- Header Banner -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&custom_color_list=00ffff,7b5cff,00ff88&height=200&section=header&text=Chinmaya%20(Ar1es-XD)&fontSize=42&fontColor=ffffff&fontAlignY=38&desc=CS%20Undergrad%20%7C%20Full-Stack%20Developer%20%2B%20Aspiring%20ML%20Researcher&descFontSize=18&descAlignY=58" width="100%" alt="Chinmaya Banner" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&custom_color_list=00ffff,7b5cff,00ff88&height=200&section=header&text=Chinmaya%20(Ar1es-XD)&fontSize=42&fontColor=ffffff&fontAlignY=38&desc=CS%20Undergrad%20%7C%20Full-Stack%20Developer%&descFontSize=18&descAlignY=58" width="100%" alt="Chinmaya Banner" />
 
   <br>
 
