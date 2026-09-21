@@ -1,12 +1,12 @@
 {
   "username": "Ar1es-XD",
-  "total": 581,
+  "total": 586,
   "best_day": {
     "date": "2026-09-06",
     "count": 163
   },
-  "current_streak": 48,
-  "longest_streak": 48,
+  "current_streak": 49,
+  "longest_streak": 49,
   "monthly_totals": {
     "2025-09": 0,
     "2025-10": 0,
@@ -20,7 +20,7 @@
     "2026-06": 1,
     "2026-07": 59,
     "2026-08": 229,
-    "2026-09": 266
+    "2026-09": 271
   },
   "days": [
     {
@@ -1845,6 +1845,11 @@
     },
     {
       "date": "2026-09-20",
+      "count": 5,
+      "level": 1
+    },
+    {
+      "date": "2026-09-21",
       "count": 0,
       "level": 0
     }
