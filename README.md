@@ -7,7 +7,7 @@
 
   <!-- Animated Typing Subtitle -->
   <a href="https://github.com/Ar1es-XD">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=00FFFF&center=true&vCenter=true&width=650&lines=CS+Undergrad+%2B+Full-Stack+Builder;Architecting+Deterministic+Tooling+%2B+Modern+Web+Apps" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=00FFFF&center=true&vCenter=true&width=650&lines=CS+Undergrad+%2B+Full-Stack+Builder;Architecting+Robust+Systems+%2B+Modern+Web+Apps" alt="Typing SVG" />
   </a>
 
 </div>
@@ -19,17 +19,16 @@
 ```yaml
 identity:
   name: Chinmaya (Ar1es-XD)
-  roles: [Computer Science Undergrad, Full-Stack Developer, Aspiring ML Researcher]
-  specialization: [Modern Web Platforms, Distributed Systems]
+  roles: [Computer Science Undergrad, Full-Stack Systems Engineer, ML Researcher]
+  specialization: [Scalable Web Platforms, Distributed Systems, Bioinformatics Models]
 
 current_focus:
   machine_learning_exploration:
-    - Researching deep learning.
+    - Researching deep learning and Selective State-Space Models (VMamba / S4) for biological sequences.
   full_stack_engineering:
-    - Building high-performance, real-time web applications with Next.js, TypeScript, Prisma & Supabase.
-    - Engineering deterministic Git automation and developer productivity toolchains.
+    - Building high-performance, real-time web applications with Next.js, TypeScript, FastAPI & PostgreSQL.
   open_source:
-    - Contributing to platforms like CircuitVerse, gVisor, Zulip, and developer toolkits.
+    - Contributing to Zulip (GSoC 2027 aspirant), Google gVisor (system call testing), and CCExtractor.
 ```
 
 ---
@@ -91,6 +90,19 @@ current_focus:
 
 ---
 
+### Open Source Contributions
+
+<div align="left">
+
+- **[Google gVisor](https://github.com/google/gvisor):** System call test contributions ([PR #14143](https://github.com/google/gvisor/pull/14143), [PR #14082](https://github.com/google/gvisor/pull/14082)).
+- **[CCExtractor](https://github.com/CCExtractor/ccextractor):** Subtitle parsing and toolchain fixes ([PR #2307](https://github.com/CCExtractor/ccextractor/pull/2307)).
+- **[Deakin Detonator Toolkit](https://github.com/Deakin-Detonator-Toolkit/Deakin-Detonator-Toolkit):** Security tooling & bug fixes ([PR #1801](https://github.com/Deakin-Detonator-Toolkit/Deakin-Detonator-Toolkit/pull/1801), [PR #1761](https://github.com/Deakin-Detonator-Toolkit/Deakin-Detonator-Toolkit/pull/1761), [PR #1720](https://github.com/Deakin-Detonator-Toolkit/Deakin-Detonator-Toolkit/pull/1720)).
+- **[Zulip](https://github.com/zulip/zulip):** Active open-source contributor & GSoC 2027 aspirant.
+
+</div>
+
+---
+
 ### Tech Stack & Ecosystem
 
 <div align="center">
@@ -108,14 +120,26 @@ current_focus:
 ---
 
 ### Current Statistics
+
+<div align="center">
+  <a href="https://github.com/Ar1es-XD">
+    <img src="https://github-readme-stats.vercel.app/api?username=Ar1es-XD&show_icons=true&theme=tokyonight&hide_border=true&bg_color=08080C&title_color=00FFFF&icon_color=00FF88&text_color=FFFFFF" alt="GitHub Stats" height="165" />
+  </a>
+  &nbsp;
+  <a href="https://github.com/Ar1es-XD">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ar1es-XD&layout=compact&theme=tokyonight&hide_border=true&bg_color=08080C&title_color=00FFFF&text_color=FFFFFF" alt="Top Languages" height="165" />
+  </a>
+
+  <br><br>
+
   <!-- GitHub Streak Stats -->
   <a href="https://github.com/Ar1es-XD">
     <img src="https://github-readme-streak-stats-eight.vercel.app/?user=Ar1es-XD&theme=tokyonight&hide_border=true&background=08080C&ring=00FFFF&fire=00FFFF&currStreakLabel=00FFFF" alt="GitHub Streak" width="860" />
   </a>
 
-  <br><br>
+</div>
 
 <br>
 <div align="center">
-  <sub><i>⚡ "Clean architecture, deterministic commits, continuous iteration."</i></sub>
+  <sub><i>⚡ "Clean architecture, continuous iteration, open-source excellence."</i></sub>
 </div>
