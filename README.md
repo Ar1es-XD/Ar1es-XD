@@ -122,14 +122,6 @@ current_focus:
 ### Current Statistics
 
 <div align="center">
-  <a href="https://github.com/Ar1es-XD">
-    <img src="https://github-readme-stats-fast.vercel.app/api?username=Ar1es-XD&show_icons=true&theme=tokyonight&hide_border=true&bg_color=08080C&title_color=00FFFF&icon_color=00FF88&text_color=FFFFFF" alt="GitHub Stats" height="165" />
-  </a>
-  &nbsp;
-  <a href="https://github.com/Ar1es-XD">
-    <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=Ar1es-XD&layout=compact&theme=tokyonight&hide_border=true&bg_color=08080C&title_color=00FFFF&text_color=FFFFFF" alt="Top Languages" height="165" />
-  </a>
-
   <br><br>
 
   <!-- GitHub Streak Stats -->
