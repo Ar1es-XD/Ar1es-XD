@@ -79,7 +79,7 @@ current_focus:
 </td>
 <td width="50%" valign="top">
 <p align="left">
-  <a href="https://github.com/Ar1es-XD/nst-attendance"><code><b> NST ATTENDANCE</b></code></a> <a href="https://github.com/Ar1es-XD/nst-attendance"><img src="https://img.shields.io/badge/PRODUCTION-00ff88?style=flat-square&logoWidth=0" align="right" alt="Production" /></a><br>
+  <a href="https://github.com/Ar1es-XD/nst-attendance"><code><b> NST ATTENDANCE</b></code></a> <a href="nst-attendance.vercel.app"><img src="https://img.shields.io/badge/PRODUCTION-00ff88?style=flat-square&logoWidth=0" align="right" alt="Production" /></a><br>
   <sub>Real-time LMS attendance tracker & planner with bunk calculation engine, simulation mode, and CLI tools.</sub><br><br>
   <code>React 19</code> · <code>Vite</code> · <code>Python</code> · <code>Vercel</code>
 </p>
